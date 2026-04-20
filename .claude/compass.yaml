@@ -1,0 +1,136 @@
+version: 1
+axes:
+  problem:
+    name: problem
+    claims:
+    - text: 'Predict Emergency Severity Index (ESI) triage acuity levels 1-5 for emergency
+        department patients. This is a Kaggle competition (Triagegeist, $10K prize,
+        27 teams, deadline April 21 2026). The input is structured tabular data: 80K
+        train / 20K test patients with vitals (BP, HR, RR, temp, SpO2, GCS, pain score,
+        NEWS2 score), demographics (age, sex, language, insurance), arrival info (mode,
+        time, origin), chief complaint text, and 25 binary medical history flags.
+        Train includes 2 leakage columns (disposition, ed_los_hours) that must be
+        excluded. Target is ordinal 1-5 ESI scale with class imbalance (ESI 1=4%,
+        ESI 3=36%).'
+      source: interview:problem
+      heading: What specific problem does this solve?
+      confidence: 0.9
+      provenance: interviewed
+      origin_facet: ''
+    - text: 'Non-goals: (1) Building a production clinical decision support system
+        — this is a competition entry. (2) Using leakage columns (disposition, ed_los_hours)
+        which are post-triage outcomes. (3) Heavy NLP — chief_complaint_raw is helpful
+        but NEWS2 (r=0.815) and vitals dominate the signal. (4) Synthetic data generation
+        — real competition data is provided despite NOTE.md suggesting otherwise.'
+      source: interview:problem
+      heading: What are the non-goals?
+      confidence: 0.9
+      provenance: interviewed
+      origin_facet: ''
+    - text: Success = top 3 finish among 27 teams. Leaderboard is currently EMPTY
+        (zero submissions). Evaluation metric needs confirmation but likely macro
+        F1 or weighted F1 given ordinal multiclass nature. CV accuracy of ~97% is
+        achievable per public notebooks (CatBoost + feature engineering). The real
+        test is generalization to the held-out test set.
+      source: interview:problem
+      heading: What does success look like?
+      confidence: 0.9
+      provenance: interviewed
+      origin_facet: ''
+    summary: 'Predict Emergency Severity Index (ESI) triage acuity levels 1-5 for
+      emergency department patients. This is a Kaggle competition (Triagegeist, $10K
+      prize, 27 teams, deadline April 21 2026). The input is structured tabular data:
+      80K train / 20K test patients with vitals (BP, HR, RR, temp, SpO2, GCS, pain
+      score, NEWS2 score), demographics (age, sex, language, insurance), arrival info
+      (mode, time, origin), chief complaint text, and 25 binary medical history flags.
+      Train includes 2 leakage columns (disposition, ed_los_hours) that must be excluded.
+      Target is ordinal 1-5 ESI scale with class imbalance (ESI 1=4%, ESI 3=36%).'
+    depth: 2
+  solution:
+    name: solution
+    claims:
+    - text: 'Multi-scale approach ported from NCEMS: (1) Deterministic clinical rules
+        first (NEWS2 thresholds, vital sign cutoffs for ESI classification), (2) Feature
+        engineering with domain knowledge (shock index, clinical flags, complaint×history
+        interactions), (3) Gradient boosting ensemble (CatBoost primary) on structured
+        features, (4) Chief complaint text processing (lexicon mapping + embeddings),
+        (5) Optional LLM residual for ambiguous cases. This beats generic ML because
+        clinical domain knowledge encodes ESI decision rules directly.'
+      source: interview:solution
+      heading: Why this approach over alternatives?
+      confidence: 0.9
+      provenance: interviewed
+      origin_facet: ''
+    - text: 'Tradeoffs: (1) Prioritize structured features over NLP — NEWS2 alone
+        explains 81.5% of variance. Chief complaint text is additive signal, not primary.
+        (2) CatBoost over neural networks — tabular data favors gradient boosting.
+        (3) Deterministic rules + ML hybrid over pure ML — clinical rules catch edge
+        cases (e.g., GCS<8 = ESI 1 regardless of other features). (4) Speed over complexity
+        — planned as 1-day blitz given NCEMS pipeline exists.'
+      source: interview:solution
+      heading: What tradeoffs were made?
+      confidence: 0.9
+      provenance: interviewed
+      origin_facet: ''
+    - text: 'NCEMS competition pipeline (multi-scale deterministic extraction + LLM
+        residual) which achieved 66% outperformance over leaderboard. Clinical lexicon
+        from Computational Semantics paper Section 9.5.2. Public notebook analysis
+        shows competitors using CatBoost, XGBoost, LightGBM ensembles with BioBERT
+        embeddings for text. Key differentiator: our clinical domain knowledge + systematic
+        feature engineering vs generic autoML approaches.'
+      source: interview:solution
+      heading: What prior work inspired this?
+      confidence: 0.9
+      provenance: interviewed
+      origin_facet: ''
+    summary: 'Multi-scale approach ported from NCEMS: (1) Deterministic clinical rules
+      first (NEWS2 thresholds, vital sign cutoffs for ESI classification), (2) Feature
+      engineering with domain knowledge (shock index, clinical flags, complaint×history
+      interactions), (3) Gradient boosting ensemble (CatBoost primary) on structured
+      features, (4) Chief complaint text processing (lexicon mapping + embeddings),
+      (5) Optional LLM residual for ambiguous cases. This beats generic ML because
+      clinical domain knowledge encodes ESI decision rules directly.'
+    depth: 2
+  implementation:
+    name: implementation
+    claims:
+    - text: Uses src/ layout
+      source: directory_structure
+      heading: ''
+      confidence: 0.5
+      provenance: inferred
+      origin_facet: abstractions
+    summary: Uses src/ layout
+    depth: 1
+  world:
+    name: world
+    claims: []
+    summary: ''
+    depth: 0
+directives:
+- kind: forbidden
+  text: proposed_rules
+  source: enforceable_rules
+- kind: forbidden
+  text: existing_rule_count
+  source: enforceable_rules
+- kind: forbidden
+  text: directives_analyzed
+  source: enforceable_rules
+- kind: forbidden
+  text: already_covered
+  source: enforceable_rules
+gap_report:
+  axis_depths:
+    problem: 2
+    solution: 2
+    implementation: 1
+    world: 0
+  spikiness: 0.0
+  sparse_axes:
+  - implementation
+  - world
+  interview_recommended: false
+forged_at: 1774132105.9401221
+frozen: true
+frozen_hash: 380106ab9c60ccb7

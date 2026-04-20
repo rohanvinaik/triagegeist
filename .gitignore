@@ -1,0 +1,37 @@
+# Data — too large, must be downloaded from Kaggle
+data/extracted/
+data/triagegeist.zip
+
+# Local build / cache
+__pycache__/
+*.pyc
+.ruff_cache/
+.benchmarks/
+.lintgate/
+.mypy_cache/
+.pytest_cache/
+catboost_info/
+**/catboost_info/
+**/_preview/
+.venv/
+venv/
+
+# Generated competitor mirrors (large, not part of submission)
+competitor_subs/
+
+# Logs
+*.log
+
+# OOF artifacts (regenerable; large)
+analysis/oof_proba.npy
+analysis/oof_final.npy
+analysis/oof_method.npy
+analysis/oof_gap.npy
+
+# OS
+.DS_Store
+
+# Local Claude harness state
+.claude/scheduled_tasks.lock
+.claude/rules/lg_session.md
+.claude/rules/lg_focus.md

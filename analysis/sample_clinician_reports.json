@@ -1,0 +1,1139 @@
+[
+  {
+    "patient_id": "TG-L2886F5M0",
+    "esi_prediction": 1,
+    "esi_meaning": "Resuscitation \u2014 immediate life-threat",
+    "model_confidence": 0.98,
+    "calibrated_severe_probability": 0.876,
+    "readings": [
+      {
+        "bank": "severity",
+        "esi_estimate": 1.5,
+        "confidence": 0.95,
+        "signed_deviation": -0.125,
+        "agrees": true,
+        "evidence": "news2=15 critical"
+      },
+      {
+        "bank": "consciousness",
+        "esi_estimate": 1.0,
+        "confidence": 0.98,
+        "signed_deviation": -0.518,
+        "agrees": false,
+        "evidence": "gcs=7 comatose"
+      },
+      {
+        "bank": "respiratory",
+        "esi_estimate": 1.5,
+        "confidence": 0.88,
+        "signed_deviation": -0.125,
+        "agrees": true,
+        "evidence": "spo2=90 rr=31 severe"
+      },
+      {
+        "bank": "cardiovascular",
+        "esi_estimate": 1.0,
+        "confidence": 0.92,
+        "signed_deviation": -0.518,
+        "agrees": false,
+        "evidence": "shock_index=1.30 critical"
+      },
+      {
+        "bank": "thermal",
+        "esi_estimate": 2.5,
+        "confidence": 0.65,
+        "signed_deviation": 0.661,
+        "agrees": false,
+        "evidence": "temp=39.5 high fever/hypothermia"
+      },
+      {
+        "bank": "pain",
+        "esi_estimate": 2.0,
+        "confidence": 0.6,
+        "signed_deviation": 0.268,
+        "agrees": true,
+        "evidence": "pain=10 loc=unknown severe"
+      },
+      {
+        "bank": "history",
+        "esi_estimate": 4.0,
+        "confidence": 0.15,
+        "signed_deviation": 1.839,
+        "agrees": false,
+        "evidence": "comorbidities=1 high_risk=0"
+      },
+      {
+        "bank": "demographic",
+        "esi_estimate": 3.8,
+        "confidence": 0.1,
+        "signed_deviation": 1.682,
+        "agrees": false,
+        "evidence": "age=10 neutral"
+      },
+      {
+        "bank": "utilization",
+        "esi_estimate": 3.5,
+        "confidence": 0.15,
+        "signed_deviation": 1.446,
+        "agrees": false,
+        "evidence": "ed=4 admit=0 meds=0"
+      },
+      {
+        "bank": "arrival",
+        "esi_estimate": 3.3,
+        "confidence": 0.05,
+        "signed_deviation": 1.289,
+        "agrees": false,
+        "evidence": "mode=walk-in (non-discriminative)"
+      },
+      {
+        "bank": "complaint",
+        "esi_estimate": 3.0,
+        "confidence": 0.25,
+        "signed_deviation": 1.053,
+        "agrees": false,
+        "evidence": "system:trauma mod=+0.0"
+      }
+    ],
+    "order_parameter_r": 0.826,
+    "dissenting_banks": [
+      "consciousness",
+      "cardiovascular",
+      "thermal",
+      "complaint"
+    ],
+    "dissent_direction": "mixed",
+    "flags": [],
+    "style_offset": {
+      "nurse_over_bias": 0.006728571428571417,
+      "nurse_under_bias": 0.0005283292978208731,
+      "nurse_expected_esi": 3.3059825968523002,
+      "site_l1_dev": 0.010449445539674668
+    },
+    "method": "demo (label shown)"
+  },
+  {
+    "patient_id": "TG-9FE1HNLZR",
+    "esi_prediction": 1,
+    "esi_meaning": "Resuscitation \u2014 immediate life-threat",
+    "model_confidence": 0.98,
+    "calibrated_severe_probability": 0.876,
+    "readings": [
+      {
+        "bank": "severity",
+        "esi_estimate": 1.5,
+        "confidence": 0.95,
+        "signed_deviation": -0.258,
+        "agrees": true,
+        "evidence": "news2=14 critical"
+      },
+      {
+        "bank": "consciousness",
+        "esi_estimate": 1.0,
+        "confidence": 0.98,
+        "signed_deviation": -0.651,
+        "agrees": false,
+        "evidence": "gcs=4 comatose"
+      },
+      {
+        "bank": "respiratory",
+        "esi_estimate": 1.0,
+        "confidence": 0.95,
+        "signed_deviation": -0.651,
+        "agrees": false,
+        "evidence": "spo2=80 rr=35 critical"
+      },
+      {
+        "bank": "cardiovascular",
+        "esi_estimate": 2.0,
+        "confidence": 0.8,
+        "signed_deviation": 0.135,
+        "agrees": true,
+        "evidence": "shock_index=1.19 elevated"
+      },
+      {
+        "bank": "thermal",
+        "esi_estimate": 3.0,
+        "confidence": 0.5,
+        "signed_deviation": 0.92,
+        "agrees": false,
+        "evidence": "temp=39.0 fever"
+      },
+      {
+        "bank": "pain",
+        "esi_estimate": 2.0,
+        "confidence": 0.6,
+        "signed_deviation": 0.135,
+        "agrees": true,
+        "evidence": "pain=10 loc=none severe"
+      },
+      {
+        "bank": "history",
+        "esi_estimate": 3.0,
+        "confidence": 0.35,
+        "signed_deviation": 0.92,
+        "agrees": false,
+        "evidence": "comorbidities=10 high_risk=2"
+      },
+      {
+        "bank": "demographic",
+        "esi_estimate": 3.8,
+        "confidence": 0.1,
+        "signed_deviation": 1.549,
+        "agrees": false,
+        "evidence": "age=57 neutral"
+      },
+      {
+        "bank": "utilization",
+        "esi_estimate": 3.0,
+        "confidence": 0.25,
+        "signed_deviation": 0.92,
+        "agrees": false,
+        "evidence": "ed=2 admit=2 meds=13"
+      },
+      {
+        "bank": "arrival",
+        "esi_estimate": 3.3,
+        "confidence": 0.05,
+        "signed_deviation": 1.156,
+        "agrees": false,
+        "evidence": "mode=helicopter (non-discriminative)"
+      },
+      {
+        "bank": "complaint",
+        "esi_estimate": 4.0,
+        "confidence": 0.25,
+        "signed_deviation": 1.706,
+        "agrees": false,
+        "evidence": "system:dermatological mod=+0.0"
+      }
+    ],
+    "order_parameter_r": 0.781,
+    "dissenting_banks": [
+      "consciousness",
+      "respiratory",
+      "thermal",
+      "history",
+      "utilization",
+      "complaint"
+    ],
+    "dissent_direction": "mixed",
+    "flags": [],
+    "style_offset": {
+      "nurse_over_bias": -0.0032222222222222097,
+      "nurse_under_bias": 0.002246913580246923,
+      "nurse_expected_esi": 3.324989660493827,
+      "site_l1_dev": 0.010449445539674668
+    },
+    "method": "demo (label shown)"
+  },
+  {
+    "patient_id": "TG-7D3U4AQ8D",
+    "esi_prediction": 2,
+    "esi_meaning": "Emergent \u2014 high risk, severe pain, dangerous vitals",
+    "model_confidence": 0.65,
+    "calibrated_severe_probability": 0.388,
+    "readings": [
+      {
+        "bank": "severity",
+        "esi_estimate": 3.4,
+        "confidence": 0.65,
+        "signed_deviation": 0.137,
+        "agrees": true,
+        "evidence": "news2=2 low"
+      },
+      {
+        "bank": "consciousness",
+        "esi_estimate": 2.5,
+        "confidence": 0.55,
+        "signed_deviation": -0.57,
+        "agrees": false,
+        "evidence": "gcs=15 agitated"
+      },
+      {
+        "bank": "respiratory",
+        "esi_estimate": 3.2,
+        "confidence": 0.55,
+        "signed_deviation": -0.02,
+        "agrees": true,
+        "evidence": "spo2=95 rr=18 mild"
+      },
+      {
+        "bank": "cardiovascular",
+        "esi_estimate": 4.8,
+        "confidence": 0.3,
+        "signed_deviation": 1.237,
+        "agrees": false,
+        "evidence": "hr=87 sbp=129.3 stable"
+      },
+      {
+        "bank": "thermal",
+        "esi_estimate": 3.0,
+        "confidence": 0.5,
+        "signed_deviation": -0.177,
+        "agrees": true,
+        "evidence": "temp=38.6 fever"
+      },
+      {
+        "bank": "pain",
+        "esi_estimate": 3.5,
+        "confidence": 0.3,
+        "signed_deviation": 0.216,
+        "agrees": true,
+        "evidence": "pain=5 moderate"
+      },
+      {
+        "bank": "history",
+        "esi_estimate": 3.0,
+        "confidence": 0.35,
+        "signed_deviation": -0.177,
+        "agrees": true,
+        "evidence": "comorbidities=5 high_risk=2"
+      },
+      {
+        "bank": "demographic",
+        "esi_estimate": 3.8,
+        "confidence": 0.1,
+        "signed_deviation": 0.451,
+        "agrees": false,
+        "evidence": "age=39 neutral"
+      },
+      {
+        "bank": "utilization",
+        "esi_estimate": 3.5,
+        "confidence": 0.15,
+        "signed_deviation": 0.216,
+        "agrees": true,
+        "evidence": "ed=3 admit=1 meds=4"
+      },
+      {
+        "bank": "arrival",
+        "esi_estimate": 3.3,
+        "confidence": 0.05,
+        "signed_deviation": 0.059,
+        "agrees": true,
+        "evidence": "mode=ambulance (non-discriminative)"
+      },
+      {
+        "bank": "complaint",
+        "esi_estimate": 3.0,
+        "confidence": 0.31,
+        "signed_deviation": -0.177,
+        "agrees": true,
+        "evidence": "system:respiratory mod=+0.2"
+      }
+    ],
+    "order_parameter_r": 0.911,
+    "dissenting_banks": [
+      "consciousness",
+      "cardiovascular"
+    ],
+    "dissent_direction": "mixed",
+    "flags": [
+      "temporal_paradox: severe-complaint cohort with low own NEWS2"
+    ],
+    "style_offset": {
+      "nurse_over_bias": -0.0026223461538461557,
+      "nurse_under_bias": 0.005839307692307727,
+      "nurse_expected_esi": 3.3461435384615386,
+      "site_l1_dev": 0.012769910821201172
+    },
+    "method": "demo (label shown)"
+  },
+  {
+    "patient_id": "TG-KLJVNRKYY",
+    "esi_prediction": 2,
+    "esi_meaning": "Emergent \u2014 high risk, severe pain, dangerous vitals",
+    "model_confidence": 0.75,
+    "calibrated_severe_probability": 0.538,
+    "readings": [
+      {
+        "bank": "severity",
+        "esi_estimate": 3.4,
+        "confidence": 0.65,
+        "signed_deviation": 0.364,
+        "agrees": true,
+        "evidence": "news2=2 low"
+      },
+      {
+        "bank": "consciousness",
+        "esi_estimate": 2.6,
+        "confidence": 0.55,
+        "signed_deviation": -0.264,
+        "agrees": true,
+        "evidence": "gcs=15 drowsy"
+      },
+      {
+        "bank": "respiratory",
+        "esi_estimate": 5.0,
+        "confidence": 0.35,
+        "signed_deviation": 1.621,
+        "agrees": false,
+        "evidence": "spo2=96 rr=15 normal"
+      },
+      {
+        "bank": "cardiovascular",
+        "esi_estimate": 4.8,
+        "confidence": 0.3,
+        "signed_deviation": 1.464,
+        "agrees": false,
+        "evidence": "hr=89 sbp=104.8 stable"
+      },
+      {
+        "bank": "thermal",
+        "esi_estimate": 3.0,
+        "confidence": 0.5,
+        "signed_deviation": 0.05,
+        "agrees": true,
+        "evidence": "temp=39.0 fever"
+      },
+      {
+        "bank": "pain",
+        "esi_estimate": 2.0,
+        "confidence": 0.75,
+        "signed_deviation": -0.735,
+        "agrees": false,
+        "evidence": "pain=10 loc=head severe"
+      },
+      {
+        "bank": "history",
+        "esi_estimate": 2.5,
+        "confidence": 0.45,
+        "signed_deviation": -0.343,
+        "agrees": true,
+        "evidence": "comorbidities=10 high_risk=4"
+      },
+      {
+        "bank": "demographic",
+        "esi_estimate": 3.0,
+        "confidence": 0.3,
+        "signed_deviation": 0.05,
+        "agrees": true,
+        "evidence": "age=80 elderly"
+      },
+      {
+        "bank": "utilization",
+        "esi_estimate": 3.5,
+        "confidence": 0.15,
+        "signed_deviation": 0.443,
+        "agrees": false,
+        "evidence": "ed=2 admit=0 meds=8"
+      },
+      {
+        "bank": "arrival",
+        "esi_estimate": 3.3,
+        "confidence": 0.05,
+        "signed_deviation": 0.286,
+        "agrees": true,
+        "evidence": "mode=walk-in (non-discriminative)"
+      },
+      {
+        "bank": "complaint",
+        "esi_estimate": 2.2,
+        "confidence": 0.34,
+        "signed_deviation": -0.578,
+        "agrees": false,
+        "evidence": "system:cardiovascular mod=-0.3"
+      }
+    ],
+    "order_parameter_r": 0.772,
+    "dissenting_banks": [
+      "respiratory",
+      "cardiovascular",
+      "pain",
+      "complaint"
+    ],
+    "dissent_direction": "mixed",
+    "flags": [
+      "temporal_paradox: severe-complaint cohort with low own NEWS2"
+    ],
+    "style_offset": {
+      "nurse_over_bias": 0.0012464705882352933,
+      "nurse_under_bias": -0.005751764705882345,
+      "nurse_expected_esi": 3.3232254411764703,
+      "site_l1_dev": 0.010449445539674668
+    },
+    "method": "demo (label shown)"
+  },
+  {
+    "patient_id": "TG-BOVZKJL6Q",
+    "esi_prediction": 5,
+    "esi_meaning": "Non-urgent \u2014 expects 0 resources",
+    "model_confidence": 0.55,
+    "calibrated_severe_probability": 0.139,
+    "readings": [
+      {
+        "bank": "severity",
+        "esi_estimate": 4.2,
+        "confidence": 0.55,
+        "signed_deviation": 0.33,
+        "agrees": true,
+        "evidence": "news2=0 minimal"
+      },
+      {
+        "bank": "consciousness",
+        "esi_estimate": 2.6,
+        "confidence": 0.55,
+        "signed_deviation": -0.927,
+        "agrees": false,
+        "evidence": "gcs=15 drowsy"
+      },
+      {
+        "bank": "respiratory",
+        "esi_estimate": 5.0,
+        "confidence": 0.35,
+        "signed_deviation": 0.958,
+        "agrees": false,
+        "evidence": "spo2=98 rr=16 normal"
+      },
+      {
+        "bank": "cardiovascular",
+        "esi_estimate": 4.8,
+        "confidence": 0.3,
+        "signed_deviation": 0.801,
+        "agrees": false,
+        "evidence": "hr=85 sbp=132.8 stable"
+      },
+      {
+        "bank": "thermal",
+        "esi_estimate": 5.0,
+        "confidence": 0.15,
+        "signed_deviation": 0.958,
+        "agrees": false,
+        "evidence": "temp=36.7 normal"
+      },
+      {
+        "bank": "pain",
+        "esi_estimate": 5.0,
+        "confidence": 0.3,
+        "signed_deviation": 0.958,
+        "agrees": false,
+        "evidence": "pain=0 none"
+      },
+      {
+        "bank": "history",
+        "esi_estimate": 3.2,
+        "confidence": 0.25,
+        "signed_deviation": -0.455,
+        "agrees": false,
+        "evidence": "comorbidities=4 high_risk=1"
+      },
+      {
+        "bank": "demographic",
+        "esi_estimate": 3.8,
+        "confidence": 0.1,
+        "signed_deviation": 0.016,
+        "agrees": true,
+        "evidence": "age=31 neutral"
+      },
+      {
+        "bank": "utilization",
+        "esi_estimate": 4.2,
+        "confidence": 0.1,
+        "signed_deviation": 0.33,
+        "agrees": true,
+        "evidence": "ed=0 admit=0 meds=5"
+      },
+      {
+        "bank": "arrival",
+        "esi_estimate": 3.3,
+        "confidence": 0.05,
+        "signed_deviation": -0.377,
+        "agrees": true,
+        "evidence": "mode=walk-in (non-discriminative)"
+      },
+      {
+        "bank": "complaint",
+        "esi_estimate": 2.1,
+        "confidence": 0.55,
+        "signed_deviation": -1.319,
+        "agrees": false,
+        "evidence": "emergent:diaphoresis mod=-0.2"
+      }
+    ],
+    "order_parameter_r": 0.649,
+    "dissenting_banks": [
+      "consciousness",
+      "respiratory",
+      "cardiovascular",
+      "pain",
+      "history",
+      "complaint"
+    ],
+    "dissent_direction": "mixed",
+    "flags": [
+      "chronic_presentation_marker",
+      "low_bank_coherence (r=0.65)",
+      "low_model_confidence (0.55)"
+    ],
+    "style_offset": {
+      "nurse_over_bias": -0.011467305856142612,
+      "nurse_under_bias": 0.003005108211330376,
+      "nurse_expected_esi": 3.340218491406747,
+      "site_l1_dev": 0.005305021340698046
+    },
+    "method": "demo (label shown)"
+  },
+  {
+    "patient_id": "TG-D8QLKA4GD",
+    "esi_prediction": 4,
+    "esi_meaning": "Less urgent \u2014 expects 1 resource",
+    "model_confidence": 0.6,
+    "calibrated_severe_probability": 0.266,
+    "readings": [
+      {
+        "bank": "severity",
+        "esi_estimate": 3.8,
+        "confidence": 0.6,
+        "signed_deviation": -0.009,
+        "agrees": true,
+        "evidence": "news2=1 low"
+      },
+      {
+        "bank": "consciousness",
+        "esi_estimate": 3.8,
+        "confidence": 0.3,
+        "signed_deviation": -0.009,
+        "agrees": true,
+        "evidence": "gcs=15 alert (neutral)"
+      },
+      {
+        "bank": "respiratory",
+        "esi_estimate": 5.0,
+        "confidence": 0.35,
+        "signed_deviation": 0.933,
+        "agrees": false,
+        "evidence": "spo2=97 rr=19 normal"
+      },
+      {
+        "bank": "cardiovascular",
+        "esi_estimate": 4.8,
+        "confidence": 0.3,
+        "signed_deviation": 0.776,
+        "agrees": false,
+        "evidence": "hr=99 sbp=139.1 stable"
+      },
+      {
+        "bank": "thermal",
+        "esi_estimate": 5.0,
+        "confidence": 0.15,
+        "signed_deviation": 0.933,
+        "agrees": false,
+        "evidence": "temp=36.7 normal"
+      },
+      {
+        "bank": "pain",
+        "esi_estimate": 2.5,
+        "confidence": 0.3,
+        "signed_deviation": -1.03,
+        "agrees": false,
+        "evidence": "pain unassessable (altered?)"
+      },
+      {
+        "bank": "history",
+        "esi_estimate": 3.0,
+        "confidence": 0.35,
+        "signed_deviation": -0.637,
+        "agrees": false,
+        "evidence": "comorbidities=6 high_risk=2"
+      },
+      {
+        "bank": "demographic",
+        "esi_estimate": 3.0,
+        "confidence": 0.3,
+        "signed_deviation": -0.637,
+        "agrees": false,
+        "evidence": "age=79 elderly"
+      },
+      {
+        "bank": "utilization",
+        "esi_estimate": 3.5,
+        "confidence": 0.15,
+        "signed_deviation": -0.245,
+        "agrees": true,
+        "evidence": "ed=1 admit=1 meds=5"
+      },
+      {
+        "bank": "arrival",
+        "esi_estimate": 3.3,
+        "confidence": 0.05,
+        "signed_deviation": -0.402,
+        "agrees": false,
+        "evidence": "mode=walk-in (non-discriminative)"
+      },
+      {
+        "bank": "complaint",
+        "esi_estimate": 4.1,
+        "confidence": 0.34,
+        "signed_deviation": 0.227,
+        "agrees": true,
+        "evidence": "system:musculoskeletal mod=+0.3"
+      }
+    ],
+    "order_parameter_r": 0.817,
+    "dissenting_banks": [
+      "respiratory",
+      "cardiovascular",
+      "pain",
+      "history",
+      "demographic"
+    ],
+    "dissent_direction": "mixed",
+    "flags": [
+      "chronic_presentation_marker"
+    ],
+    "style_offset": {
+      "nurse_over_bias": -0.003158625686394134,
+      "nurse_under_bias": 0.0069955613178768195,
+      "nurse_expected_esi": 3.3273235204392924,
+      "site_l1_dev": 0.017772446078734377
+    },
+    "method": "demo (label shown)"
+  },
+  {
+    "patient_id": "TG-XZHS3LROB",
+    "esi_prediction": 3,
+    "esi_meaning": "Urgent \u2014 expects 2+ resources",
+    "model_confidence": 0.7,
+    "calibrated_severe_probability": 0.46,
+    "readings": [
+      {
+        "bank": "severity",
+        "esi_estimate": 3.1,
+        "confidence": 0.7,
+        "signed_deviation": -0.142,
+        "agrees": true,
+        "evidence": "news2=3 low-medium"
+      },
+      {
+        "bank": "consciousness",
+        "esi_estimate": 3.8,
+        "confidence": 0.3,
+        "signed_deviation": 0.408,
+        "agrees": false,
+        "evidence": "gcs=15 alert (neutral)"
+      },
+      {
+        "bank": "respiratory",
+        "esi_estimate": 3.2,
+        "confidence": 0.55,
+        "signed_deviation": -0.063,
+        "agrees": true,
+        "evidence": "spo2=94 rr=15 mild"
+      },
+      {
+        "bank": "cardiovascular",
+        "esi_estimate": 4.8,
+        "confidence": 0.3,
+        "signed_deviation": 1.193,
+        "agrees": false,
+        "evidence": "hr=100 sbp=158.9 stable"
+      },
+      {
+        "bank": "thermal",
+        "esi_estimate": 3.5,
+        "confidence": 0.35,
+        "signed_deviation": 0.172,
+        "agrees": true,
+        "evidence": "temp=38.1 low-grade fever"
+      },
+      {
+        "bank": "pain",
+        "esi_estimate": 3.5,
+        "confidence": 0.3,
+        "signed_deviation": 0.172,
+        "agrees": true,
+        "evidence": "pain=6 moderate"
+      },
+      {
+        "bank": "history",
+        "esi_estimate": 2.5,
+        "confidence": 0.45,
+        "signed_deviation": -0.613,
+        "agrees": false,
+        "evidence": "comorbidities=11 high_risk=4"
+      },
+      {
+        "bank": "demographic",
+        "esi_estimate": 2.8,
+        "confidence": 0.4,
+        "signed_deviation": -0.378,
+        "agrees": true,
+        "evidence": "age=89 very elderly"
+      },
+      {
+        "bank": "utilization",
+        "esi_estimate": 3.5,
+        "confidence": 0.15,
+        "signed_deviation": 0.172,
+        "agrees": true,
+        "evidence": "ed=0 admit=0 meds=10"
+      },
+      {
+        "bank": "arrival",
+        "esi_estimate": 3.3,
+        "confidence": 0.05,
+        "signed_deviation": 0.015,
+        "agrees": true,
+        "evidence": "mode=walk-in (non-discriminative)"
+      },
+      {
+        "bank": "complaint",
+        "esi_estimate": 3.3,
+        "confidence": 0.34,
+        "signed_deviation": 0.015,
+        "agrees": true,
+        "evidence": "system:trauma mod=+0.3"
+      }
+    ],
+    "order_parameter_r": 0.91,
+    "dissenting_banks": [
+      "consciousness",
+      "cardiovascular",
+      "history"
+    ],
+    "dissent_direction": "mixed",
+    "flags": [],
+    "style_offset": {
+      "nurse_over_bias": 0.0037096316818774067,
+      "nurse_under_bias": 0.004328129074315568,
+      "nurse_expected_esi": 3.321697033898305,
+      "site_l1_dev": 0.010449445539674668
+    },
+    "method": "demo (label shown)"
+  },
+  {
+    "patient_id": "TG-RVVA3WWWS",
+    "esi_prediction": 3,
+    "esi_meaning": "Urgent \u2014 expects 2+ resources",
+    "model_confidence": 0.65,
+    "calibrated_severe_probability": 0.388,
+    "readings": [
+      {
+        "bank": "severity",
+        "esi_estimate": 3.4,
+        "confidence": 0.65,
+        "signed_deviation": -0.217,
+        "agrees": true,
+        "evidence": "news2=2 low"
+      },
+      {
+        "bank": "consciousness",
+        "esi_estimate": 3.8,
+        "confidence": 0.3,
+        "signed_deviation": 0.097,
+        "agrees": true,
+        "evidence": "gcs=15 alert (neutral)"
+      },
+      {
+        "bank": "respiratory",
+        "esi_estimate": 3.2,
+        "confidence": 0.55,
+        "signed_deviation": -0.374,
+        "agrees": true,
+        "evidence": "spo2=98 rr=23 mild"
+      },
+      {
+        "bank": "cardiovascular",
+        "esi_estimate": 4.8,
+        "confidence": 0.3,
+        "signed_deviation": 0.883,
+        "agrees": false,
+        "evidence": "hr=88 sbp=122.1 stable"
+      },
+      {
+        "bank": "thermal",
+        "esi_estimate": 5.0,
+        "confidence": 0.15,
+        "signed_deviation": 1.04,
+        "agrees": false,
+        "evidence": "temp=36.4 normal"
+      },
+      {
+        "bank": "pain",
+        "esi_estimate": 3.5,
+        "confidence": 0.3,
+        "signed_deviation": -0.138,
+        "agrees": true,
+        "evidence": "pain=4 moderate"
+      },
+      {
+        "bank": "history",
+        "esi_estimate": 4.0,
+        "confidence": 0.15,
+        "signed_deviation": 0.254,
+        "agrees": true,
+        "evidence": "comorbidities=1 high_risk=0"
+      },
+      {
+        "bank": "demographic",
+        "esi_estimate": 3.8,
+        "confidence": 0.1,
+        "signed_deviation": 0.097,
+        "agrees": true,
+        "evidence": "age=57 neutral"
+      },
+      {
+        "bank": "utilization",
+        "esi_estimate": 3.5,
+        "confidence": 0.15,
+        "signed_deviation": -0.138,
+        "agrees": true,
+        "evidence": "ed=3 admit=0 meds=2"
+      },
+      {
+        "bank": "arrival",
+        "esi_estimate": 3.3,
+        "confidence": 0.05,
+        "signed_deviation": -0.296,
+        "agrees": true,
+        "evidence": "mode=walk-in (non-discriminative)"
+      },
+      {
+        "bank": "complaint",
+        "esi_estimate": 3.5,
+        "confidence": 0.25,
+        "signed_deviation": -0.138,
+        "agrees": true,
+        "evidence": "system:genitourinary mod=+0.0"
+      }
+    ],
+    "order_parameter_r": 0.914,
+    "dissenting_banks": [
+      "cardiovascular"
+    ],
+    "dissent_direction": "toward_mild",
+    "flags": [
+      "treating_nurse_over_triage_bias=+0.025"
+    ],
+    "style_offset": {
+      "nurse_over_bias": 0.024631899249061312,
+      "nurse_under_bias": -0.018707790988735873,
+      "nurse_expected_esi": 3.2706403316645805,
+      "site_l1_dev": 0.012769910821201172
+    },
+    "method": "demo (label shown)"
+  },
+  {
+    "patient_id": "TG-YJLAE1180",
+    "esi_prediction": 2,
+    "esi_meaning": "Emergent \u2014 high risk, severe pain, dangerous vitals",
+    "model_confidence": 0.95,
+    "calibrated_severe_probability": 0.876,
+    "readings": [
+      {
+        "bank": "severity",
+        "esi_estimate": 1.5,
+        "confidence": 0.95,
+        "signed_deviation": -0.27,
+        "agrees": true,
+        "evidence": "news2=14 critical"
+      },
+      {
+        "bank": "consciousness",
+        "esi_estimate": 1.5,
+        "confidence": 0.92,
+        "signed_deviation": -0.27,
+        "agrees": true,
+        "evidence": "gcs=14 mental=unresponsive"
+      },
+      {
+        "bank": "respiratory",
+        "esi_estimate": 1.5,
+        "confidence": 0.88,
+        "signed_deviation": -0.27,
+        "agrees": true,
+        "evidence": "spo2=90 rr=28 severe"
+      },
+      {
+        "bank": "cardiovascular",
+        "esi_estimate": 2.0,
+        "confidence": 0.8,
+        "signed_deviation": 0.123,
+        "agrees": true,
+        "evidence": "shock_index=1.18 elevated"
+      },
+      {
+        "bank": "thermal",
+        "esi_estimate": 3.0,
+        "confidence": 0.5,
+        "signed_deviation": 0.908,
+        "agrees": false,
+        "evidence": "temp=39.1 fever"
+      },
+      {
+        "bank": "pain",
+        "esi_estimate": 2.0,
+        "confidence": 0.6,
+        "signed_deviation": 0.123,
+        "agrees": true,
+        "evidence": "pain=10 loc=extremity severe"
+      },
+      {
+        "bank": "history",
+        "esi_estimate": 4.0,
+        "confidence": 0.15,
+        "signed_deviation": 1.694,
+        "agrees": false,
+        "evidence": "comorbidities=4 high_risk=0"
+      },
+      {
+        "bank": "demographic",
+        "esi_estimate": 3.8,
+        "confidence": 0.1,
+        "signed_deviation": 1.537,
+        "agrees": false,
+        "evidence": "age=33 neutral"
+      },
+      {
+        "bank": "utilization",
+        "esi_estimate": 3.5,
+        "confidence": 0.15,
+        "signed_deviation": 1.301,
+        "agrees": false,
+        "evidence": "ed=5 admit=0 meds=4"
+      },
+      {
+        "bank": "arrival",
+        "esi_estimate": 3.3,
+        "confidence": 0.05,
+        "signed_deviation": 1.144,
+        "agrees": false,
+        "evidence": "mode=walk-in (non-discriminative)"
+      },
+      {
+        "bank": "complaint",
+        "esi_estimate": 1.5,
+        "confidence": 0.85,
+        "signed_deviation": -0.27,
+        "agrees": true,
+        "evidence": "critical:stroke"
+      }
+    ],
+    "order_parameter_r": 0.88,
+    "dissenting_banks": [
+      "thermal"
+    ],
+    "dissent_direction": "toward_mild",
+    "flags": [],
+    "style_offset": {
+      "nurse_over_bias": 0.005419753086419732,
+      "nurse_under_bias": -0.003308641975308557,
+      "nurse_expected_esi": 3.3163476851851854,
+      "site_l1_dev": 0.010449445539674668
+    },
+    "method": "demo (label shown)"
+  },
+  {
+    "patient_id": "TG-2G6ASL1Q6",
+    "esi_prediction": 2,
+    "esi_meaning": "Emergent \u2014 high risk, severe pain, dangerous vitals",
+    "model_confidence": 0.95,
+    "calibrated_severe_probability": 0.876,
+    "readings": [
+      {
+        "bank": "severity",
+        "esi_estimate": 1.5,
+        "confidence": 0.95,
+        "signed_deviation": -0.159,
+        "agrees": true,
+        "evidence": "news2=14 critical"
+      },
+      {
+        "bank": "consciousness",
+        "esi_estimate": 1.5,
+        "confidence": 0.9,
+        "signed_deviation": -0.159,
+        "agrees": true,
+        "evidence": "gcs=11 severely impaired"
+      },
+      {
+        "bank": "respiratory",
+        "esi_estimate": 1.5,
+        "confidence": 0.88,
+        "signed_deviation": -0.159,
+        "agrees": true,
+        "evidence": "spo2=88 rr=30 severe"
+      },
+      {
+        "bank": "cardiovascular",
+        "esi_estimate": 1.0,
+        "confidence": 0.92,
+        "signed_deviation": -0.552,
+        "agrees": false,
+        "evidence": "shock_index=1.34 critical"
+      },
+      {
+        "bank": "thermal",
+        "esi_estimate": 5.0,
+        "confidence": 0.15,
+        "signed_deviation": 2.59,
+        "agrees": false,
+        "evidence": "temp=37.5 normal"
+      },
+      {
+        "bank": "pain",
+        "esi_estimate": 2.0,
+        "confidence": 0.6,
+        "signed_deviation": 0.234,
+        "agrees": true,
+        "evidence": "pain=10 loc=multiple severe"
+      },
+      {
+        "bank": "history",
+        "esi_estimate": 3.2,
+        "confidence": 0.25,
+        "signed_deviation": 1.176,
+        "agrees": false,
+        "evidence": "comorbidities=2 high_risk=1"
+      },
+      {
+        "bank": "demographic",
+        "esi_estimate": 3.8,
+        "confidence": 0.1,
+        "signed_deviation": 1.647,
+        "agrees": false,
+        "evidence": "age=42 neutral"
+      },
+      {
+        "bank": "utilization",
+        "esi_estimate": 4.2,
+        "confidence": 0.1,
+        "signed_deviation": 1.961,
+        "agrees": false,
+        "evidence": "ed=2 admit=0 meds=1"
+      },
+      {
+        "bank": "arrival",
+        "esi_estimate": 3.3,
+        "confidence": 0.05,
+        "signed_deviation": 1.255,
+        "agrees": false,
+        "evidence": "mode=ambulance (non-discriminative)"
+      },
+      {
+        "bank": "complaint",
+        "esi_estimate": 2.9,
+        "confidence": 0.34,
+        "signed_deviation": 0.94,
+        "agrees": false,
+        "evidence": "system:infectious mod=-0.3"
+      }
+    ],
+    "order_parameter_r": 0.807,
+    "dissenting_banks": [
+      "cardiovascular",
+      "history",
+      "complaint"
+    ],
+    "dissent_direction": "mixed",
+    "flags": [],
+    "style_offset": {
+      "nurse_over_bias": 0.012748856565028,
+      "nurse_under_bias": -0.017901104542625945,
+      "nurse_expected_esi": 3.2921488799004357,
+      "site_l1_dev": 0.010449445539674668
+    },
+    "method": "demo (label shown)"
+  }
+]

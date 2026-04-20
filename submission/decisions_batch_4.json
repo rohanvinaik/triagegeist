@@ -1,0 +1,382 @@
+[
+  {
+    "patient_id": "TG-7GP8FPFXU",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-W4GTNV9H3",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-XFRPX05XL",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-89DSHDTPW",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-B0FQZ8A2N",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-SDZIJCF8I",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-0N7UYB9N9",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-GXEOIBRAF",
+    "esi": 2
+  },
+  {
+    "patient_id": "TG-ZIPVTAKFZ",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-2RCNZJJMM",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-DHS3GQDMD",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-GVZLQBIPW",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-O1DG18LM5",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-6RQTUCFL1",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-Z95QBHHDD",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-KUT4TRCT5",
+    "esi": 2
+  },
+  {
+    "patient_id": "TG-2OGW8SXFE",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-OR0L6JEYO",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-25D19BC5S",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-2BIH616GS",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-XIAMAR8XZ",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-HYKM6FY5O",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-S8G6DC20C",
+    "esi": 2
+  },
+  {
+    "patient_id": "TG-UH3VTFQYH",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-HYRVFEWS7",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-64WYY0VYA",
+    "esi": 5
+  },
+  {
+    "patient_id": "TG-J44VSQI6X",
+    "esi": 1
+  },
+  {
+    "patient_id": "TG-AH2RHMSUL",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-I3Q0YAH0I",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-F4KYEWB7Q",
+    "esi": 5
+  },
+  {
+    "patient_id": "TG-JY6QQQAT2",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-25BAO32OP",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-NSZ3JCS5J",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-PQQO9I0E1",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-M1AN5CUF5",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-F9W3K6W3C",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-R5OBBHF65",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-YXOHLSNZ9",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-ANV4ZKLQT",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-62J5HDO0H",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-35S6JPNUJ",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-R9YKDRGSN",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-F4BN4TM4L",
+    "esi": 2
+  },
+  {
+    "patient_id": "TG-HJLFL3IMK",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-B43Q5NS6C",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-7U9O1EH4U",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-5UG6EPJKT",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-NE0SU93MY",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-RCVAQTSNR",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-RCNWB2R31",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-2MR3G7OP2",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-IUE5QMJL7",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-VIGIG2G75",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-57BUAETG3",
+    "esi": 5
+  },
+  {
+    "patient_id": "TG-TFJRPFTWG",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-K5YS9CYY1",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-379GF5FCC",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-UUS030U0Z",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-53U1QBFQP",
+    "esi": 5
+  },
+  {
+    "patient_id": "TG-VGLUB25VJ",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-K92Q94ZF3",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-UE7K7YNIE",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-Y9ZHF1666",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-F0V4LZAOA",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-EVA8GNIQ7",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-G25SAKM2N",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-F7HLAKBE1",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-5PE38X5AY",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-VZU7V8JAP",
+    "esi": 5
+  },
+  {
+    "patient_id": "TG-SQSI5DF0R",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-O9B4TXC5W",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-CZVMH04U0",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-9PFP5CDV2",
+    "esi": 1
+  },
+  {
+    "patient_id": "TG-MIZI7EJMP",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-VUC9LRCAN",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-T8O6QQH0N",
+    "esi": 5
+  },
+  {
+    "patient_id": "TG-2RZ0ND1BG",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-UXGNWF5LI",
+    "esi": 1
+  },
+  {
+    "patient_id": "TG-SEF04UPL1",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-9F470TITQ",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-TQY9860PP",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-DWPOKJDKV",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-P2GM097IP",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-USS4DGJAE",
+    "esi": 5
+  },
+  {
+    "patient_id": "TG-3AOK1VJYJ",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-4QVY2G2PZ",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-7F0JF42X5",
+    "esi": 5
+  },
+  {
+    "patient_id": "TG-6QH0JRF4G",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-N1DXB8QHO",
+    "esi": 5
+  },
+  {
+    "patient_id": "TG-J91ZQXN3B",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-CU3WMYCWJ",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-KPPG4T60Q",
+    "esi": 3
+  },
+  {
+    "patient_id": "TG-L87LZ9LNM",
+    "esi": 4
+  },
+  {
+    "patient_id": "TG-0AZ5QL4LX",
+    "esi": 5
+  },
+  {
+    "patient_id": "TG-R7FAUY4DE",
+    "esi": 3
+  }
+]

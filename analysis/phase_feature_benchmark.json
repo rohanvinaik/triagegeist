@@ -1,0 +1,69 @@
+{
+  "baseline": {
+    "label": "baseline",
+    "n_features": 118,
+    "argmax_macro_f1": 0.9958364247797201,
+    "argmax_accuracy": 0.997675,
+    "argmax_qwk": 0.9989244122041397,
+    "argmax_linear_kappa": 0.997962553165443,
+    "tuned_macro_f1": 0.9968095573694005,
+    "tuned_accuracy": 0.9985,
+    "tuned_qwk": 0.9993063127287607,
+    "tuned_linear_kappa": 0.9986858712259342,
+    "thresholds": [
+      1.3774830977322834,
+      2.7734869635338573,
+      3.6399819443454495,
+      4.08503332012604
+    ],
+    "elapsed_sec": 1206.4
+  },
+  "with_phase": {
+    "label": "with_phase",
+    "n_features": 135,
+    "argmax_macro_f1": 0.9956182526927542,
+    "argmax_accuracy": 0.9976625,
+    "argmax_qwk": 0.9989186735892582,
+    "argmax_linear_kappa": 0.9979516547208599,
+    "tuned_macro_f1": 0.9964730144998775,
+    "tuned_accuracy": 0.9983125,
+    "tuned_qwk": 0.9992192582186215,
+    "tuned_linear_kappa": 0.998521245822375,
+    "thresholds": [
+      1.3600912875935887,
+      2.5407871869736107,
+      3.626336130066123,
+      4.101324430992842
+    ],
+    "elapsed_sec": 1301.9
+  },
+  "delta_B_minus_A": {
+    "argmax_macro_f1": -0.00021817208696595092,
+    "argmax_accuracy": -1.2499999999970868e-05,
+    "argmax_qwk": -5.73861488151195e-06,
+    "argmax_linear_kappa": -1.0898444583129496e-05,
+    "tuned_macro_f1": -0.0003365428695230044,
+    "tuned_accuracy": -0.0001875000000000071,
+    "tuned_qwk": -8.705451013923948e-05,
+    "tuned_linear_kappa": -0.0001646254035592154
+  },
+  "new_phase_features": [
+    "bank_arrival_dev",
+    "bank_cardiovascular_dev",
+    "bank_coherence_spread",
+    "bank_complaint_dev",
+    "bank_consciousness_dev",
+    "bank_demographic_dev",
+    "bank_history_dev",
+    "bank_pain_dev",
+    "bank_psi",
+    "bank_r_chronic_profile",
+    "bank_r_complaint_context",
+    "bank_r_physiologic_core",
+    "bank_r_total",
+    "bank_respiratory_dev",
+    "bank_severity_dev",
+    "bank_thermal_dev",
+    "bank_utilization_dev"
+  ]
+}

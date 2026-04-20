@@ -1,0 +1,25 @@
+{
+  "label": "hard_bucket_v2",
+  "include_surprisal": true,
+  "n_easy": 72000,
+  "n_hard": 8000,
+  "argmax_macro_f1_all": 0.9287861428134996,
+  "argmax_qwk_all": 0.9628046897268213,
+  "argmax_accuracy_all": 0.92455,
+  "argmax_macro_f1_easy": 0.9289238836139703,
+  "argmax_qwk_easy": 0.9634917825825188,
+  "argmax_macro_f1_hard": 0.9279361950586924,
+  "argmax_qwk_hard": 0.9553053913858536,
+  "tuned_qwk_all": 0.9633433597373755,
+  "tuned_qwk_easy": 0.9639539622016526,
+  "tuned_qwk_hard": 0.9566461554169075,
+  "tuned_macro_f1_all": 0.9284300337991584,
+  "thresholds": [
+    1.4129919157979907,
+    2.4989636585604416,
+    3.542357019328414,
+    4.551072886736997
+  ],
+  "elapsed_sec": 2917.4,
+  "hard_threshold_r_total": 0.74298437042387
+}

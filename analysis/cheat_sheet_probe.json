@@ -1,0 +1,299 @@
+{
+  "subsets": {
+    "full_population": 80000,
+    "bottom_quartile_conf": 37103,
+    "bottom_decile_conf": 19355
+  },
+  "threshold_top_conf_q25": 0.6,
+  "threshold_top_conf_p10": 0.55,
+  "mi_table": {
+    "full_pop_MI": {
+      "age_normalized_shock": 0.3128,
+      "chronic_burden_residual": 0.6069,
+      "thermo_immune_product": 0.1599,
+      "temporal_trajectory_code": 0.0125,
+      "temporal_has_marker": 0.0006,
+      "temporal_chronic": 0.0091,
+      "temporal_news2_deviation": 0.5667,
+      "temporal_paradox_flag": 0.0059,
+      "style_nurse_over_bias": 0.0035,
+      "style_nurse_under_bias": 0.0,
+      "style_nurse_expected_esi": 0.0,
+      "style_site_l1_dev": 0.004,
+      "dev_severity": 0.233,
+      "dev_consciousness": 0.2512,
+      "dev_respiratory": 0.4171,
+      "dev_cardiovascular": 0.5425,
+      "dev_thermal": 0.3964,
+      "dev_pain": 0.2312,
+      "dev_history": 0.4634,
+      "dev_demographic": 0.6157,
+      "dev_utilization": 0.4243,
+      "dev_arrival": 0.0,
+      "dev_complaint": 0.2341
+    },
+    "q25_MI": {
+      "age_normalized_shock": 0.0227,
+      "chronic_burden_residual": 0.0482,
+      "thermo_immune_product": 0.0299,
+      "temporal_trajectory_code": 0.0017,
+      "temporal_has_marker": 0.0,
+      "temporal_chronic": 0.0021,
+      "temporal_news2_deviation": 0.6808,
+      "temporal_paradox_flag": 0.0,
+      "style_nurse_over_bias": 0.007,
+      "style_nurse_under_bias": 0.0,
+      "style_nurse_expected_esi": 0.0096,
+      "style_site_l1_dev": 0.0054,
+      "dev_severity": 0.142,
+      "dev_consciousness": 0.1921,
+      "dev_respiratory": 0.2047,
+      "dev_cardiovascular": 0.2137,
+      "dev_thermal": 0.213,
+      "dev_pain": 0.1821,
+      "dev_history": 0.1579,
+      "dev_demographic": 0.1898,
+      "dev_utilization": 0.1351,
+      "dev_arrival": 0.0047,
+      "dev_complaint": 0.1168
+    },
+    "p10_MI": {
+      "age_normalized_shock": 0.0053,
+      "chronic_burden_residual": 0.0052,
+      "thermo_immune_product": 0.0201,
+      "temporal_trajectory_code": 0.0006,
+      "temporal_has_marker": 0.002,
+      "temporal_chronic": 0.0044,
+      "temporal_news2_deviation": 0.6108,
+      "temporal_paradox_flag": 0.0,
+      "style_nurse_over_bias": 0.0,
+      "style_nurse_under_bias": 0.0052,
+      "style_nurse_expected_esi": 0.0008,
+      "style_site_l1_dev": 0.0035,
+      "dev_severity": 0.1806,
+      "dev_consciousness": 0.1842,
+      "dev_respiratory": 0.1741,
+      "dev_cardiovascular": 0.1804,
+      "dev_thermal": 0.1868,
+      "dev_pain": 0.1929,
+      "dev_history": 0.1637,
+      "dev_demographic": 0.1758,
+      "dev_utilization": 0.1542,
+      "dev_arrival": 0.0,
+      "dev_complaint": 0.1432
+    },
+    "lift_q25": {
+      "age_normalized_shock": -0.2901,
+      "chronic_burden_residual": -0.5587,
+      "thermo_immune_product": -0.13,
+      "temporal_trajectory_code": -0.0108,
+      "temporal_has_marker": -0.0006,
+      "temporal_chronic": -0.007,
+      "temporal_news2_deviation": 0.114,
+      "temporal_paradox_flag": -0.0059,
+      "style_nurse_over_bias": 0.0035,
+      "style_nurse_under_bias": 0.0,
+      "style_nurse_expected_esi": 0.0096,
+      "style_site_l1_dev": 0.0014,
+      "dev_severity": -0.091,
+      "dev_consciousness": -0.0591,
+      "dev_respiratory": -0.2124,
+      "dev_cardiovascular": -0.3289,
+      "dev_thermal": -0.1834,
+      "dev_pain": -0.0492,
+      "dev_history": -0.3055,
+      "dev_demographic": -0.4259,
+      "dev_utilization": -0.2892,
+      "dev_arrival": 0.0047,
+      "dev_complaint": -0.1172
+    },
+    "lift_p10": {
+      "age_normalized_shock": -0.3075,
+      "chronic_burden_residual": -0.6016,
+      "thermo_immune_product": -0.1398,
+      "temporal_trajectory_code": -0.0119,
+      "temporal_has_marker": 0.0013,
+      "temporal_chronic": -0.0048,
+      "temporal_news2_deviation": 0.0441,
+      "temporal_paradox_flag": -0.0059,
+      "style_nurse_over_bias": -0.0035,
+      "style_nurse_under_bias": 0.0052,
+      "style_nurse_expected_esi": 0.0008,
+      "style_site_l1_dev": -0.0005,
+      "dev_severity": -0.0524,
+      "dev_consciousness": -0.067,
+      "dev_respiratory": -0.2431,
+      "dev_cardiovascular": -0.3621,
+      "dev_thermal": -0.2096,
+      "dev_pain": -0.0383,
+      "dev_history": -0.2997,
+      "dev_demographic": -0.4399,
+      "dev_utilization": -0.2701,
+      "dev_arrival": 0.0,
+      "dev_complaint": -0.0909
+    }
+  },
+  "ranked_by_p10_lift": {
+    "temporal_news2_deviation": {
+      "full_pop_MI": 0.5667,
+      "q25_MI": 0.6808,
+      "p10_MI": 0.6108,
+      "lift_q25": 0.114,
+      "lift_p10": 0.0441
+    },
+    "style_nurse_under_bias": {
+      "full_pop_MI": 0.0,
+      "q25_MI": 0.0,
+      "p10_MI": 0.0052,
+      "lift_q25": 0.0,
+      "lift_p10": 0.0052
+    },
+    "temporal_has_marker": {
+      "full_pop_MI": 0.0006,
+      "q25_MI": 0.0,
+      "p10_MI": 0.002,
+      "lift_q25": -0.0006,
+      "lift_p10": 0.0013
+    },
+    "style_nurse_expected_esi": {
+      "full_pop_MI": 0.0,
+      "q25_MI": 0.0096,
+      "p10_MI": 0.0008,
+      "lift_q25": 0.0096,
+      "lift_p10": 0.0008
+    },
+    "dev_arrival": {
+      "full_pop_MI": 0.0,
+      "q25_MI": 0.0047,
+      "p10_MI": 0.0,
+      "lift_q25": 0.0047,
+      "lift_p10": 0.0
+    },
+    "style_site_l1_dev": {
+      "full_pop_MI": 0.004,
+      "q25_MI": 0.0054,
+      "p10_MI": 0.0035,
+      "lift_q25": 0.0014,
+      "lift_p10": -0.0005
+    },
+    "style_nurse_over_bias": {
+      "full_pop_MI": 0.0035,
+      "q25_MI": 0.007,
+      "p10_MI": 0.0,
+      "lift_q25": 0.0035,
+      "lift_p10": -0.0035
+    },
+    "temporal_chronic": {
+      "full_pop_MI": 0.0091,
+      "q25_MI": 0.0021,
+      "p10_MI": 0.0044,
+      "lift_q25": -0.007,
+      "lift_p10": -0.0048
+    },
+    "temporal_paradox_flag": {
+      "full_pop_MI": 0.0059,
+      "q25_MI": 0.0,
+      "p10_MI": 0.0,
+      "lift_q25": -0.0059,
+      "lift_p10": -0.0059
+    },
+    "temporal_trajectory_code": {
+      "full_pop_MI": 0.0125,
+      "q25_MI": 0.0017,
+      "p10_MI": 0.0006,
+      "lift_q25": -0.0108,
+      "lift_p10": -0.0119
+    },
+    "dev_pain": {
+      "full_pop_MI": 0.2312,
+      "q25_MI": 0.1821,
+      "p10_MI": 0.1929,
+      "lift_q25": -0.0492,
+      "lift_p10": -0.0383
+    },
+    "dev_severity": {
+      "full_pop_MI": 0.233,
+      "q25_MI": 0.142,
+      "p10_MI": 0.1806,
+      "lift_q25": -0.091,
+      "lift_p10": -0.0524
+    },
+    "dev_consciousness": {
+      "full_pop_MI": 0.2512,
+      "q25_MI": 0.1921,
+      "p10_MI": 0.1842,
+      "lift_q25": -0.0591,
+      "lift_p10": -0.067
+    },
+    "dev_complaint": {
+      "full_pop_MI": 0.2341,
+      "q25_MI": 0.1168,
+      "p10_MI": 0.1432,
+      "lift_q25": -0.1172,
+      "lift_p10": -0.0909
+    },
+    "thermo_immune_product": {
+      "full_pop_MI": 0.1599,
+      "q25_MI": 0.0299,
+      "p10_MI": 0.0201,
+      "lift_q25": -0.13,
+      "lift_p10": -0.1398
+    },
+    "dev_thermal": {
+      "full_pop_MI": 0.3964,
+      "q25_MI": 0.213,
+      "p10_MI": 0.1868,
+      "lift_q25": -0.1834,
+      "lift_p10": -0.2096
+    },
+    "dev_respiratory": {
+      "full_pop_MI": 0.4171,
+      "q25_MI": 0.2047,
+      "p10_MI": 0.1741,
+      "lift_q25": -0.2124,
+      "lift_p10": -0.2431
+    },
+    "dev_utilization": {
+      "full_pop_MI": 0.4243,
+      "q25_MI": 0.1351,
+      "p10_MI": 0.1542,
+      "lift_q25": -0.2892,
+      "lift_p10": -0.2701
+    },
+    "dev_history": {
+      "full_pop_MI": 0.4634,
+      "q25_MI": 0.1579,
+      "p10_MI": 0.1637,
+      "lift_q25": -0.3055,
+      "lift_p10": -0.2997
+    },
+    "age_normalized_shock": {
+      "full_pop_MI": 0.3128,
+      "q25_MI": 0.0227,
+      "p10_MI": 0.0053,
+      "lift_q25": -0.2901,
+      "lift_p10": -0.3075
+    },
+    "dev_cardiovascular": {
+      "full_pop_MI": 0.5425,
+      "q25_MI": 0.2137,
+      "p10_MI": 0.1804,
+      "lift_q25": -0.3289,
+      "lift_p10": -0.3621
+    },
+    "dev_demographic": {
+      "full_pop_MI": 0.6157,
+      "q25_MI": 0.1898,
+      "p10_MI": 0.1758,
+      "lift_q25": -0.4259,
+      "lift_p10": -0.4399
+    },
+    "chronic_burden_residual": {
+      "full_pop_MI": 0.6069,
+      "q25_MI": 0.0482,
+      "p10_MI": 0.0052,
+      "lift_q25": -0.5587,
+      "lift_p10": -0.6016
+    }
+  }
+}

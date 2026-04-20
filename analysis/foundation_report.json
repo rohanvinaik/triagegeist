@@ -1,0 +1,536 @@
+{
+  "meta": {
+    "n_train": 80000,
+    "n_banks": 11,
+    "elapsed_sec": 15.6
+  },
+  "pearson_corr_bank_esi": {
+    "severity": {
+      "severity": 1.0,
+      "consciousness": 0.728,
+      "respiratory": 0.769,
+      "cardiovascular": 0.7576,
+      "thermal": 0.6398,
+      "pain": 0.4659,
+      "complaint": 0.2945,
+      "history": 0.1149,
+      "demographic": -0.0033,
+      "utilization": 0.3319,
+      "arrival": NaN
+    },
+    "consciousness": {
+      "severity": 0.728,
+      "consciousness": 1.0,
+      "respiratory": 0.5769,
+      "cardiovascular": 0.5515,
+      "thermal": 0.4905,
+      "pain": 0.3945,
+      "complaint": 0.2488,
+      "history": 0.1092,
+      "demographic": -0.0022,
+      "utilization": 0.293,
+      "arrival": NaN
+    },
+    "respiratory": {
+      "severity": 0.769,
+      "consciousness": 0.5769,
+      "respiratory": 1.0,
+      "cardiovascular": 0.4968,
+      "thermal": 0.456,
+      "pain": 0.3895,
+      "complaint": 0.2431,
+      "history": 0.0873,
+      "demographic": -0.0002,
+      "utilization": 0.2721,
+      "arrival": NaN
+    },
+    "cardiovascular": {
+      "severity": 0.7576,
+      "consciousness": 0.5515,
+      "respiratory": 0.4968,
+      "cardiovascular": 1.0,
+      "thermal": 0.4226,
+      "pain": 0.3435,
+      "complaint": 0.2157,
+      "history": 0.0838,
+      "demographic": -0.0084,
+      "utilization": 0.247,
+      "arrival": NaN
+    },
+    "thermal": {
+      "severity": 0.6398,
+      "consciousness": 0.4905,
+      "respiratory": 0.456,
+      "cardiovascular": 0.4226,
+      "thermal": 1.0,
+      "pain": 0.3278,
+      "complaint": 0.2075,
+      "history": 0.0778,
+      "demographic": 0.0008,
+      "utilization": 0.2317,
+      "arrival": NaN
+    },
+    "pain": {
+      "severity": 0.4659,
+      "consciousness": 0.3945,
+      "respiratory": 0.3895,
+      "cardiovascular": 0.3435,
+      "thermal": 0.3278,
+      "pain": 1.0,
+      "complaint": 0.1893,
+      "history": 0.0541,
+      "demographic": -0.0019,
+      "utilization": 0.2059,
+      "arrival": NaN
+    },
+    "complaint": {
+      "severity": 0.2945,
+      "consciousness": 0.2488,
+      "respiratory": 0.2431,
+      "cardiovascular": 0.2157,
+      "thermal": 0.2075,
+      "pain": 0.1893,
+      "complaint": 1.0,
+      "history": 0.035,
+      "demographic": 0.0015,
+      "utilization": 0.1226,
+      "arrival": NaN
+    },
+    "history": {
+      "severity": 0.1149,
+      "consciousness": 0.1092,
+      "respiratory": 0.0873,
+      "cardiovascular": 0.0838,
+      "thermal": 0.0778,
+      "pain": 0.0541,
+      "complaint": 0.035,
+      "history": 1.0,
+      "demographic": 0.2818,
+      "utilization": 0.4149,
+      "arrival": NaN
+    },
+    "demographic": {
+      "severity": -0.0033,
+      "consciousness": -0.0022,
+      "respiratory": -0.0002,
+      "cardiovascular": -0.0084,
+      "thermal": 0.0008,
+      "pain": -0.0019,
+      "complaint": 0.0015,
+      "history": 0.2818,
+      "demographic": 1.0,
+      "utilization": 0.2939,
+      "arrival": NaN
+    },
+    "utilization": {
+      "severity": 0.3319,
+      "consciousness": 0.293,
+      "respiratory": 0.2721,
+      "cardiovascular": 0.247,
+      "thermal": 0.2317,
+      "pain": 0.2059,
+      "complaint": 0.1226,
+      "history": 0.4149,
+      "demographic": 0.2939,
+      "utilization": 1.0,
+      "arrival": NaN
+    },
+    "arrival": {
+      "severity": NaN,
+      "consciousness": NaN,
+      "respiratory": NaN,
+      "cardiovascular": NaN,
+      "thermal": NaN,
+      "pain": NaN,
+      "complaint": NaN,
+      "history": NaN,
+      "demographic": NaN,
+      "utilization": NaN,
+      "arrival": NaN
+    }
+  },
+  "partial_corr_bank_esi": {
+    "severity": {
+      "severity": 1.0,
+      "consciousness": 0.3374,
+      "respiratory": 0.5737,
+      "cardiovascular": 0.5983,
+      "thermal": 0.4054,
+      "pain": 0.1185,
+      "complaint": 0.0703,
+      "history": 0.0077,
+      "demographic": -0.025,
+      "utilization": 0.0705,
+      "arrival": 0.0
+    },
+    "consciousness": {
+      "severity": 0.3374,
+      "consciousness": 1.0,
+      "respiratory": 0.0372,
+      "cardiovascular": 0.0151,
+      "thermal": 0.0446,
+      "pain": 0.0803,
+      "complaint": 0.0438,
+      "history": 0.0141,
+      "demographic": -0.0258,
+      "utilization": 0.0658,
+      "arrival": 0.0
+    },
+    "respiratory": {
+      "severity": 0.5737,
+      "consciousness": 0.0372,
+      "respiratory": 1.0,
+      "cardiovascular": -0.2171,
+      "thermal": -0.1069,
+      "pain": 0.0508,
+      "complaint": 0.0221,
+      "history": -0.0135,
+      "demographic": -0.003,
+      "utilization": 0.027,
+      "arrival": -0.0
+    },
+    "cardiovascular": {
+      "severity": 0.5983,
+      "consciousness": 0.0151,
+      "respiratory": -0.2171,
+      "cardiovascular": 1.0,
+      "thermal": -0.1429,
+      "pain": 0.0001,
+      "complaint": -0.0034,
+      "history": -0.005,
+      "demographic": -0.0079,
+      "utilization": 0.0057,
+      "arrival": -0.0
+    },
+    "thermal": {
+      "severity": 0.4054,
+      "consciousness": 0.0446,
+      "respiratory": -0.1069,
+      "cardiovascular": -0.1429,
+      "thermal": 1.0,
+      "pain": 0.0405,
+      "complaint": 0.0219,
+      "history": -0.0059,
+      "demographic": -0.0032,
+      "utilization": 0.0232,
+      "arrival": -0.0
+    },
+    "pain": {
+      "severity": 0.1185,
+      "consciousness": 0.0803,
+      "respiratory": 0.0508,
+      "cardiovascular": 0.0001,
+      "thermal": 0.0405,
+      "pain": 1.0,
+      "complaint": 0.0535,
+      "history": -0.0225,
+      "demographic": -0.0135,
+      "utilization": 0.0586,
+      "arrival": -0.0
+    },
+    "complaint": {
+      "severity": 0.0703,
+      "consciousness": 0.0438,
+      "respiratory": 0.0221,
+      "cardiovascular": -0.0034,
+      "thermal": 0.0219,
+      "pain": 0.0535,
+      "complaint": 1.0,
+      "history": -0.0087,
+      "demographic": -0.0023,
+      "utilization": 0.0215,
+      "arrival": -0.0
+    },
+    "history": {
+      "severity": 0.0077,
+      "consciousness": 0.0141,
+      "respiratory": -0.0135,
+      "cardiovascular": -0.005,
+      "thermal": -0.0059,
+      "pain": -0.0225,
+      "complaint": -0.0087,
+      "history": 1.0,
+      "demographic": 0.1818,
+      "utilization": 0.3431,
+      "arrival": -0.0
+    },
+    "demographic": {
+      "severity": -0.025,
+      "consciousness": -0.0258,
+      "respiratory": -0.003,
+      "cardiovascular": -0.0079,
+      "thermal": -0.0032,
+      "pain": -0.0135,
+      "complaint": -0.0023,
+      "history": 0.1818,
+      "demographic": 1.0,
+      "utilization": 0.2278,
+      "arrival": 0.0
+    },
+    "utilization": {
+      "severity": 0.0705,
+      "consciousness": 0.0658,
+      "respiratory": 0.027,
+      "cardiovascular": 0.0057,
+      "thermal": 0.0232,
+      "pain": 0.0586,
+      "complaint": 0.0215,
+      "history": 0.3431,
+      "demographic": 0.2278,
+      "utilization": 1.0,
+      "arrival": -0.0
+    },
+    "arrival": {
+      "severity": 0.0,
+      "consciousness": 0.0,
+      "respiratory": -0.0,
+      "cardiovascular": -0.0,
+      "thermal": -0.0,
+      "pain": -0.0,
+      "complaint": -0.0,
+      "history": -0.0,
+      "demographic": 0.0,
+      "utilization": -0.0,
+      "arrival": 1.0
+    }
+  },
+  "mi_bank_esi_vs_target": {
+    "severity": 0.6634,
+    "consciousness": 0.4843,
+    "respiratory": 0.3786,
+    "cardiovascular": 0.2704,
+    "thermal": 0.2225,
+    "pain": 0.2767,
+    "complaint": 0.2161,
+    "history": 0.0109,
+    "demographic": 0.0,
+    "utilization": 0.078,
+    "arrival": 0.0055
+  },
+  "conditional_mi_bank_esi": {
+    "severity": 0.1963,
+    "consciousness": 0.4033,
+    "respiratory": 0.3708,
+    "cardiovascular": 0.4895,
+    "thermal": 0.5175,
+    "pain": 0.4936,
+    "complaint": 0.2441,
+    "history": 0.2255,
+    "demographic": 0.3726,
+    "utilization": 0.2377,
+    "arrival": 0.0
+  },
+  "mi_bank_esi_plus_conf_vs_target": {
+    "severity_esi": 0.6664,
+    "consciousness_esi": 0.485,
+    "respiratory_esi": 0.3826,
+    "cardiovascular_esi": 0.2683,
+    "thermal_esi": 0.2185,
+    "pain_esi": 0.273,
+    "complaint_esi": 0.2212,
+    "history_esi": 0.0124,
+    "demographic_esi": 0.002,
+    "utilization_esi": 0.0739,
+    "arrival_esi": 0.0084,
+    "severity_conf": 0.6739,
+    "consciousness_conf": 0.5448,
+    "respiratory_conf": 0.3824,
+    "cardiovascular_conf": 0.2707,
+    "thermal_conf": 0.2453,
+    "pain_conf": 0.2444,
+    "complaint_conf": 0.2037,
+    "history_conf": 0.0093,
+    "demographic_conf": 0.0,
+    "utilization_conf": 0.0714,
+    "arrival_conf": 0.0
+  },
+  "composition_vs_components": {
+    "age_normalized_shock": {
+      "composite": 0.3138,
+      "best_component": 0.3382,
+      "lift": -0.024399999999999977
+    },
+    "chronic_burden_residual": {
+      "composite": 0.6112,
+      "raw_news2": 0.6808,
+      "lift": -0.0696
+    },
+    "thermo_immune_product": {
+      "composite": 0.1585,
+      "raw_temp_dev": 0.2616,
+      "lift": -0.1031
+    }
+  },
+  "kuramoto_r_distribution": {
+    "count": 80000.0,
+    "mean": 0.8246109321140437,
+    "std": 0.06437799936214847,
+    "min": 0.4640295102421742,
+    "25%": 0.7855444084086927,
+    "50%": 0.8285134563949412,
+    "75%": 0.8727977675389148,
+    "max": 0.9857715463088071
+  },
+  "kuramoto_subset_r_distribution": {
+    "physiologic_core": {
+      "count": 80000.0,
+      "mean": 0.8751460969843597,
+      "std": 0.0848814231050245,
+      "min": 0.370644175695966,
+      "25%": 0.8280573559305348,
+      "50%": 0.9082938282190633,
+      "75%": 0.9386706963251318,
+      "max": 0.9948346812344794
+    },
+    "chronic_profile": {
+      "count": 80000.0,
+      "mean": 0.9561509008172933,
+      "std": 0.03326925446123706,
+      "min": 0.8357327605382083,
+      "25%": 0.9340546205133672,
+      "50%": 0.9678488974348874,
+      "75%": 0.9831564836813608,
+      "max": 1.0
+    },
+    "complaint_context": {
+      "count": 80000.0,
+      "mean": 0.8494782827432584,
+      "std": 0.10229141856477025,
+      "min": 0.32332118363076834,
+      "25%": 0.7741267302447327,
+      "50%": 0.8741157439227223,
+      "75%": 0.9274088753355171,
+      "max": 1.0000000000000002
+    },
+    "arrival_only": {
+      "count": 80000.0,
+      "mean": 0.0,
+      "std": 0.0,
+      "min": 0.0,
+      "25%": 0.0,
+      "50%": 0.0,
+      "75%": 0.0,
+      "max": 0.0
+    }
+  },
+  "kuramoto_r_correctness_corr": {
+    "point_biserial_r": 0.046159079803589166,
+    "pvalue": 5.391479793999191e-39
+  },
+  "mi_phase_deviation_vs_target": {
+    "dev_severity": 0.2323,
+    "dev_consciousness": 0.2524,
+    "dev_respiratory": 0.4179,
+    "dev_cardiovascular": 0.5437,
+    "dev_thermal": 0.396,
+    "dev_pain": 0.2317,
+    "dev_complaint": 0.235,
+    "dev_history": 0.4625,
+    "dev_demographic": 0.6171,
+    "dev_utilization": 0.4238,
+    "dev_arrival": 0.0045
+  },
+  "clinician_variance": {
+    "population": {
+      "1": 0.040275,
+      "2": 0.1679875,
+      "3": 0.3615125,
+      "4": 0.28775,
+      "5": 0.142475
+    },
+    "n_nurses": 50,
+    "n_sites": 5,
+    "nurse_count_stats": {
+      "count": 50.0,
+      "mean": 1600.0,
+      "std": 47.04535371450032,
+      "min": 1501.0,
+      "25%": 1560.25,
+      "50%": 1600.0,
+      "75%": 1635.75,
+      "max": 1683.0
+    },
+    "site_count_stats": {
+      "count": 5.0,
+      "mean": 16000.0,
+      "std": 172.80190971166957,
+      "min": 15847.0,
+      "25%": 15868.0,
+      "50%": 15912.0,
+      "75%": 16161.0,
+      "max": 16212.0
+    },
+    "nurse_dev_stats": {
+      "count": 50.0,
+      "mean": 0.031101869103012162,
+      "std": 0.012770863866529245,
+      "min": 0.012951534526854241,
+      "25%": 0.022074762439702286,
+      "50%": 0.027741852615293314,
+      "75%": 0.03898250400675736,
+      "max": 0.060620722668313774
+    },
+    "site_dev_stats": {
+      "count": 5.0,
+      "mean": 0.010105300005815398,
+      "std": 0.005581651361148252,
+      "min": 0.004172006554071066,
+      "25%": 0.005311689291101089,
+      "50%": 0.01046233654083395,
+      "75%": 0.0127860273237837,
+      "max": 0.01779444031928718
+    },
+    "nurse_dev_top5": {
+      "NURSE-0001": 0.060620722668313774,
+      "NURSE-0043": 0.06022361809045224,
+      "NURSE-0032": 0.05606755089450954,
+      "NURSE-0031": 0.0550087932080048,
+      "NURSE-0007": 0.053587814610190306
+    },
+    "site_dev_top5": {
+      "SITE-HEL-01": 0.01779444031928718,
+      "SITE-OUL-01": 0.0127860273237837,
+      "SITE-TUR-01": 0.01046233654083395,
+      "SITE-HEL-02": 0.005311689291101089,
+      "SITE-TMP-01": 0.004172006554071066
+    }
+  },
+  "leakage_calibrator_quartiles": {
+    "q1": {
+      "n": 37103,
+      "conf_range": [
+        0.55,
+        0.6
+      ],
+      "severe_outcome_rate": 0.19957954882354526,
+      "mean_los": 2.1143896719941786
+    },
+    "q2": {
+      "n": 6191,
+      "conf_range": [
+        0.65,
+        0.65
+      ],
+      "severe_outcome_rate": 0.3876595057341302,
+      "mean_los": 3.148825714747214
+    },
+    "q3": {
+      "n": 18424,
+      "conf_range": [
+        0.7,
+        0.8
+      ],
+      "severe_outcome_rate": 0.5055905340859748,
+      "mean_los": 3.7797714937038642
+    },
+    "q4": {
+      "n": 18282,
+      "conf_range": [
+        0.85,
+        0.98
+      ],
+      "severe_outcome_rate": 0.8441089596324254,
+      "mean_los": 6.141506399737446
+    }
+  }
+}

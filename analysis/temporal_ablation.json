@@ -1,0 +1,83 @@
+{
+  "hard_fraction": 0.1,
+  "hard_threshold_r_total": 0.74298437042387,
+  "n_total": 80000,
+  "results": {
+    "drop_news2_deviation": {
+      "label": "drop_news2_deviation",
+      "dropped_col": "temporal_news2_deviation",
+      "n_easy": 72000,
+      "n_hard": 8000,
+      "argmax_macro_f1_all": 0.9338916698407701,
+      "argmax_qwk_all": 0.9655461116269615,
+      "argmax_accuracy_all": 0.930625,
+      "argmax_qwk_easy": 0.9659492472675846,
+      "argmax_qwk_hard": 0.9610957699474414,
+      "tuned_qwk_all": 0.9661034087826655,
+      "tuned_qwk_easy": 0.9665994502492574,
+      "tuned_qwk_hard": 0.9606419159761719,
+      "elapsed_sec": 3896.7
+    },
+    "drop_paradox_flag": {
+      "label": "drop_paradox_flag",
+      "dropped_col": "temporal_paradox_flag",
+      "n_easy": 72000,
+      "n_hard": 8000,
+      "argmax_macro_f1_all": 0.9597555080725098,
+      "argmax_qwk_all": 0.980958059513169,
+      "argmax_accuracy_all": 0.9641125,
+      "argmax_qwk_easy": 0.9821282342168073,
+      "argmax_qwk_hard": 0.9683101433229871,
+      "tuned_qwk_all": 0.9819741820481961,
+      "tuned_qwk_easy": 0.9829533019729652,
+      "tuned_qwk_hard": 0.9713159410488247,
+      "elapsed_sec": 2231.5
+    },
+    "drop_trajectory_code": {
+      "label": "drop_trajectory_code",
+      "dropped_col": "temporal_trajectory_code",
+      "n_easy": 72000,
+      "n_hard": 8000,
+      "argmax_macro_f1_all": 0.9592850795485681,
+      "argmax_qwk_all": 0.9804911173287133,
+      "argmax_accuracy_all": 0.9633375,
+      "argmax_qwk_easy": 0.9816494951271214,
+      "argmax_qwk_hard": 0.9679507549400407,
+      "tuned_qwk_all": 0.9815445439162739,
+      "tuned_qwk_easy": 0.982590262488817,
+      "tuned_qwk_hard": 0.9701607095026985,
+      "elapsed_sec": 1996.0
+    },
+    "drop_has_marker": {
+      "label": "drop_has_marker",
+      "dropped_col": "temporal_has_marker",
+      "n_easy": 72000,
+      "n_hard": 8000,
+      "argmax_macro_f1_all": 0.9603816251080177,
+      "argmax_qwk_all": 0.9810672358854435,
+      "argmax_accuracy_all": 0.9645875,
+      "argmax_qwk_easy": 0.9821232804623196,
+      "argmax_qwk_hard": 0.9696371935664821,
+      "tuned_qwk_all": 0.9819509138772073,
+      "tuned_qwk_easy": 0.982916486262598,
+      "tuned_qwk_hard": 0.9714312542354027,
+      "elapsed_sec": 2362.8
+    },
+    "drop_chronic": {
+      "label": "drop_chronic",
+      "dropped_col": "temporal_chronic",
+      "n_easy": 72000,
+      "n_hard": 8000,
+      "argmax_macro_f1_all": 0.9595705115306001,
+      "argmax_qwk_all": 0.9808453142632757,
+      "argmax_accuracy_all": 0.963925,
+      "argmax_qwk_easy": 0.9819556466067249,
+      "argmax_qwk_hard": 0.9688193103372683,
+      "tuned_qwk_all": 0.9817544282117163,
+      "tuned_qwk_easy": 0.982694312752398,
+      "tuned_qwk_hard": 0.9715499769194058,
+      "elapsed_sec": 2125.2
+    }
+  },
+  "notes": "Intra-temporal ablation: drops one temporal_* column at a time. Compare to full_stack (all temporal in, QWK ~0.9809) and baseline (no temporal, QWK ~0.9641). The variant whose removal most collapses the lift identifies the specific laundering channel."
+}

@@ -1,0 +1,205 @@
+============================================================
+Sample ClinicianReports — for writeup / audit trail demo
+============================================================
+
+--- HARD_RULE (2) ---
+
+Patient TG-L2886F5M0: ESI 1 (Resuscitation — immediate life-threat)
+  method: demo (label shown)  model_conf: 0.980  severe_outcome_prob: 0.876
+  bank coherence r: 0.826  dissent: mixed
+  dissenting banks: consciousness, cardiovascular, thermal, complaint
+  bank readings:
+      severity         ESI=1.50  conf=0.95  dev=-0.12  news2=15 critical
+    ← consciousness    ESI=1.00  conf=0.98  dev=-0.52  gcs=7 comatose
+      respiratory      ESI=1.50  conf=0.88  dev=-0.12  spo2=90 rr=31 severe
+    ← cardiovascular   ESI=1.00  conf=0.92  dev=-0.52  shock_index=1.30 critical
+    ← thermal          ESI=2.50  conf=0.65  dev=+0.66  temp=39.5 high fever/hypothermia
+      pain             ESI=2.00  conf=0.60  dev=+0.27  pain=10 loc=unknown severe
+    ← history          ESI=4.00  conf=0.15  dev=+1.84  comorbidities=1 high_risk=0
+    ← demographic      ESI=3.80  conf=0.10  dev=+1.68  age=10 neutral
+    ← utilization      ESI=3.50  conf=0.15  dev=+1.45  ed=4 admit=0 meds=0
+    ← arrival          ESI=3.30  conf=0.05  dev=+1.29  mode=walk-in (non-discriminative)
+    ← complaint        ESI=3.00  conf=0.25  dev=+1.05  system:trauma mod=+0.0
+  treating nurse: over_bias=+0.007 under_bias=+0.001
+
+Patient TG-9FE1HNLZR: ESI 1 (Resuscitation — immediate life-threat)
+  method: demo (label shown)  model_conf: 0.980  severe_outcome_prob: 0.876
+  bank coherence r: 0.781  dissent: mixed
+  dissenting banks: consciousness, respiratory, thermal, history, utilization, complaint
+  bank readings:
+      severity         ESI=1.50  conf=0.95  dev=-0.26  news2=14 critical
+    ← consciousness    ESI=1.00  conf=0.98  dev=-0.65  gcs=4 comatose
+    ← respiratory      ESI=1.00  conf=0.95  dev=-0.65  spo2=80 rr=35 critical
+      cardiovascular   ESI=2.00  conf=0.80  dev=+0.14  shock_index=1.19 elevated
+    ← thermal          ESI=3.00  conf=0.50  dev=+0.92  temp=39.0 fever
+      pain             ESI=2.00  conf=0.60  dev=+0.14  pain=10 loc=none severe
+    ← history          ESI=3.00  conf=0.35  dev=+0.92  comorbidities=10 high_risk=2
+    ← demographic      ESI=3.80  conf=0.10  dev=+1.55  age=57 neutral
+    ← utilization      ESI=3.00  conf=0.25  dev=+0.92  ed=2 admit=2 meds=13
+    ← arrival          ESI=3.30  conf=0.05  dev=+1.16  mode=helicopter (non-discriminative)
+    ← complaint        ESI=4.00  conf=0.25  dev=+1.71  system:dermatological mod=+0.0
+  treating nurse: over_bias=-0.003 under_bias=+0.002
+
+--- PARADOX (2) ---
+
+Patient TG-7D3U4AQ8D: ESI 2 (Emergent — high risk, severe pain, dangerous vitals)
+  method: demo (label shown)  model_conf: 0.650  severe_outcome_prob: 0.388
+  bank coherence r: 0.911  dissent: mixed
+  dissenting banks: consciousness, cardiovascular
+  FLAGS:
+    - temporal_paradox: severe-complaint cohort with low own NEWS2
+  bank readings:
+      severity         ESI=3.40  conf=0.65  dev=+0.14  news2=2 low
+    ← consciousness    ESI=2.50  conf=0.55  dev=-0.57  gcs=15 agitated
+      respiratory      ESI=3.20  conf=0.55  dev=-0.02  spo2=95 rr=18 mild
+    ← cardiovascular   ESI=4.80  conf=0.30  dev=+1.24  hr=87 sbp=129.3 stable
+      thermal          ESI=3.00  conf=0.50  dev=-0.18  temp=38.6 fever
+      pain             ESI=3.50  conf=0.30  dev=+0.22  pain=5 moderate
+      history          ESI=3.00  conf=0.35  dev=-0.18  comorbidities=5 high_risk=2
+    ← demographic      ESI=3.80  conf=0.10  dev=+0.45  age=39 neutral
+      utilization      ESI=3.50  conf=0.15  dev=+0.22  ed=3 admit=1 meds=4
+      arrival          ESI=3.30  conf=0.05  dev=+0.06  mode=ambulance (non-discriminative)
+      complaint        ESI=3.00  conf=0.31  dev=-0.18  system:respiratory mod=+0.2
+  treating nurse: over_bias=-0.003 under_bias=+0.006
+
+Patient TG-KLJVNRKYY: ESI 2 (Emergent — high risk, severe pain, dangerous vitals)
+  method: demo (label shown)  model_conf: 0.750  severe_outcome_prob: 0.538
+  bank coherence r: 0.772  dissent: mixed
+  dissenting banks: respiratory, cardiovascular, pain, complaint
+  FLAGS:
+    - temporal_paradox: severe-complaint cohort with low own NEWS2
+  bank readings:
+      severity         ESI=3.40  conf=0.65  dev=+0.36  news2=2 low
+      consciousness    ESI=2.60  conf=0.55  dev=-0.26  gcs=15 drowsy
+    ← respiratory      ESI=5.00  conf=0.35  dev=+1.62  spo2=96 rr=15 normal
+    ← cardiovascular   ESI=4.80  conf=0.30  dev=+1.46  hr=89 sbp=104.8 stable
+      thermal          ESI=3.00  conf=0.50  dev=+0.05  temp=39.0 fever
+    ← pain             ESI=2.00  conf=0.75  dev=-0.73  pain=10 loc=head severe
+      history          ESI=2.50  conf=0.45  dev=-0.34  comorbidities=10 high_risk=4
+      demographic      ESI=3.00  conf=0.30  dev=+0.05  age=80 elderly
+    ← utilization      ESI=3.50  conf=0.15  dev=+0.44  ed=2 admit=0 meds=8
+      arrival          ESI=3.30  conf=0.05  dev=+0.29  mode=walk-in (non-discriminative)
+    ← complaint        ESI=2.20  conf=0.34  dev=-0.58  system:cardiovascular mod=-0.3
+  treating nurse: over_bias=+0.001 under_bias=-0.006
+
+--- CHRONIC (2) ---
+
+Patient TG-BOVZKJL6Q: ESI 5 (Non-urgent — expects 0 resources)
+  method: demo (label shown)  model_conf: 0.550  severe_outcome_prob: 0.139
+  bank coherence r: 0.649  dissent: mixed
+  dissenting banks: consciousness, respiratory, cardiovascular, pain, history, complaint
+  FLAGS:
+    - chronic_presentation_marker
+    - low_bank_coherence (r=0.65)
+    - low_model_confidence (0.55)
+  bank readings:
+      severity         ESI=4.20  conf=0.55  dev=+0.33  news2=0 minimal
+    ← consciousness    ESI=2.60  conf=0.55  dev=-0.93  gcs=15 drowsy
+    ← respiratory      ESI=5.00  conf=0.35  dev=+0.96  spo2=98 rr=16 normal
+    ← cardiovascular   ESI=4.80  conf=0.30  dev=+0.80  hr=85 sbp=132.8 stable
+    ← thermal          ESI=5.00  conf=0.15  dev=+0.96  temp=36.7 normal
+    ← pain             ESI=5.00  conf=0.30  dev=+0.96  pain=0 none
+    ← history          ESI=3.20  conf=0.25  dev=-0.46  comorbidities=4 high_risk=1
+      demographic      ESI=3.80  conf=0.10  dev=+0.02  age=31 neutral
+      utilization      ESI=4.20  conf=0.10  dev=+0.33  ed=0 admit=0 meds=5
+      arrival          ESI=3.30  conf=0.05  dev=-0.38  mode=walk-in (non-discriminative)
+    ← complaint        ESI=2.10  conf=0.55  dev=-1.32  emergent:diaphoresis mod=-0.2
+  treating nurse: over_bias=-0.011 under_bias=+0.003
+
+Patient TG-D8QLKA4GD: ESI 4 (Less urgent — expects 1 resource)
+  method: demo (label shown)  model_conf: 0.600  severe_outcome_prob: 0.266
+  bank coherence r: 0.817  dissent: mixed
+  dissenting banks: respiratory, cardiovascular, pain, history, demographic
+  FLAGS:
+    - chronic_presentation_marker
+  bank readings:
+      severity         ESI=3.80  conf=0.60  dev=-0.01  news2=1 low
+      consciousness    ESI=3.80  conf=0.30  dev=-0.01  gcs=15 alert (neutral)
+    ← respiratory      ESI=5.00  conf=0.35  dev=+0.93  spo2=97 rr=19 normal
+    ← cardiovascular   ESI=4.80  conf=0.30  dev=+0.78  hr=99 sbp=139.1 stable
+    ← thermal          ESI=5.00  conf=0.15  dev=+0.93  temp=36.7 normal
+    ← pain             ESI=2.50  conf=0.30  dev=-1.03  pain unassessable (altered?)
+    ← history          ESI=3.00  conf=0.35  dev=-0.64  comorbidities=6 high_risk=2
+    ← demographic      ESI=3.00  conf=0.30  dev=-0.64  age=79 elderly
+      utilization      ESI=3.50  conf=0.15  dev=-0.24  ed=1 admit=1 meds=5
+    ← arrival          ESI=3.30  conf=0.05  dev=-0.40  mode=walk-in (non-discriminative)
+      complaint        ESI=4.10  conf=0.34  dev=+0.23  system:musculoskeletal mod=+0.3
+  treating nurse: over_bias=-0.003 under_bias=+0.007
+
+--- ROUTINE (2) ---
+
+Patient TG-XZHS3LROB: ESI 3 (Urgent — expects 2+ resources)
+  method: demo (label shown)  model_conf: 0.700  severe_outcome_prob: 0.460
+  bank coherence r: 0.910  dissent: mixed
+  dissenting banks: consciousness, cardiovascular, history
+  bank readings:
+      severity         ESI=3.10  conf=0.70  dev=-0.14  news2=3 low-medium
+    ← consciousness    ESI=3.80  conf=0.30  dev=+0.41  gcs=15 alert (neutral)
+      respiratory      ESI=3.20  conf=0.55  dev=-0.06  spo2=94 rr=15 mild
+    ← cardiovascular   ESI=4.80  conf=0.30  dev=+1.19  hr=100 sbp=158.9 stable
+      thermal          ESI=3.50  conf=0.35  dev=+0.17  temp=38.1 low-grade fever
+      pain             ESI=3.50  conf=0.30  dev=+0.17  pain=6 moderate
+    ← history          ESI=2.50  conf=0.45  dev=-0.61  comorbidities=11 high_risk=4
+      demographic      ESI=2.80  conf=0.40  dev=-0.38  age=89 very elderly
+      utilization      ESI=3.50  conf=0.15  dev=+0.17  ed=0 admit=0 meds=10
+      arrival          ESI=3.30  conf=0.05  dev=+0.01  mode=walk-in (non-discriminative)
+      complaint        ESI=3.30  conf=0.34  dev=+0.01  system:trauma mod=+0.3
+  treating nurse: over_bias=+0.004 under_bias=+0.004
+
+Patient TG-RVVA3WWWS: ESI 3 (Urgent — expects 2+ resources)
+  method: demo (label shown)  model_conf: 0.650  severe_outcome_prob: 0.388
+  bank coherence r: 0.914  dissent: toward_mild
+  dissenting banks: cardiovascular
+  FLAGS:
+    - treating_nurse_over_triage_bias=+0.025
+  bank readings:
+      severity         ESI=3.40  conf=0.65  dev=-0.22  news2=2 low
+      consciousness    ESI=3.80  conf=0.30  dev=+0.10  gcs=15 alert (neutral)
+      respiratory      ESI=3.20  conf=0.55  dev=-0.37  spo2=98 rr=23 mild
+    ← cardiovascular   ESI=4.80  conf=0.30  dev=+0.88  hr=88 sbp=122.1 stable
+    ← thermal          ESI=5.00  conf=0.15  dev=+1.04  temp=36.4 normal
+      pain             ESI=3.50  conf=0.30  dev=-0.14  pain=4 moderate
+      history          ESI=4.00  conf=0.15  dev=+0.25  comorbidities=1 high_risk=0
+      demographic      ESI=3.80  conf=0.10  dev=+0.10  age=57 neutral
+      utilization      ESI=3.50  conf=0.15  dev=-0.14  ed=3 admit=0 meds=2
+      arrival          ESI=3.30  conf=0.05  dev=-0.30  mode=walk-in (non-discriminative)
+      complaint        ESI=3.50  conf=0.25  dev=-0.14  system:genitourinary mod=+0.0
+  treating nurse: over_bias=+0.025 under_bias=-0.019
+
+--- DISSENT (2) ---
+
+Patient TG-YJLAE1180: ESI 2 (Emergent — high risk, severe pain, dangerous vitals)
+  method: demo (label shown)  model_conf: 0.950  severe_outcome_prob: 0.876
+  bank coherence r: 0.880  dissent: toward_mild
+  dissenting banks: thermal
+  bank readings:
+      severity         ESI=1.50  conf=0.95  dev=-0.27  news2=14 critical
+      consciousness    ESI=1.50  conf=0.92  dev=-0.27  gcs=14 mental=unresponsive
+      respiratory      ESI=1.50  conf=0.88  dev=-0.27  spo2=90 rr=28 severe
+      cardiovascular   ESI=2.00  conf=0.80  dev=+0.12  shock_index=1.18 elevated
+    ← thermal          ESI=3.00  conf=0.50  dev=+0.91  temp=39.1 fever
+      pain             ESI=2.00  conf=0.60  dev=+0.12  pain=10 loc=extremity severe
+    ← history          ESI=4.00  conf=0.15  dev=+1.69  comorbidities=4 high_risk=0
+    ← demographic      ESI=3.80  conf=0.10  dev=+1.54  age=33 neutral
+    ← utilization      ESI=3.50  conf=0.15  dev=+1.30  ed=5 admit=0 meds=4
+    ← arrival          ESI=3.30  conf=0.05  dev=+1.14  mode=walk-in (non-discriminative)
+      complaint        ESI=1.50  conf=0.85  dev=-0.27  critical:stroke
+  treating nurse: over_bias=+0.005 under_bias=-0.003
+
+Patient TG-2G6ASL1Q6: ESI 2 (Emergent — high risk, severe pain, dangerous vitals)
+  method: demo (label shown)  model_conf: 0.950  severe_outcome_prob: 0.876
+  bank coherence r: 0.807  dissent: mixed
+  dissenting banks: cardiovascular, history, complaint
+  bank readings:
+      severity         ESI=1.50  conf=0.95  dev=-0.16  news2=14 critical
+      consciousness    ESI=1.50  conf=0.90  dev=-0.16  gcs=11 severely impaired
+      respiratory      ESI=1.50  conf=0.88  dev=-0.16  spo2=88 rr=30 severe
+    ← cardiovascular   ESI=1.00  conf=0.92  dev=-0.55  shock_index=1.34 critical
+    ← thermal          ESI=5.00  conf=0.15  dev=+2.59  temp=37.5 normal
+      pain             ESI=2.00  conf=0.60  dev=+0.23  pain=10 loc=multiple severe
+    ← history          ESI=3.20  conf=0.25  dev=+1.18  comorbidities=2 high_risk=1
+    ← demographic      ESI=3.80  conf=0.10  dev=+1.65  age=42 neutral
+    ← utilization      ESI=4.20  conf=0.10  dev=+1.96  ed=2 admit=0 meds=1
+    ← arrival          ESI=3.30  conf=0.05  dev=+1.25  mode=ambulance (non-discriminative)
+    ← complaint        ESI=2.90  conf=0.34  dev=+0.94  system:infectious mod=-0.3
+  treating nurse: over_bias=+0.013 under_bias=-0.018

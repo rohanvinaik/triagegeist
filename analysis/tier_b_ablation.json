@@ -1,0 +1,59 @@
+{
+  "hard_fraction": 0.1,
+  "hard_threshold_r_total": 0.74298437042387,
+  "n_total": 80000,
+  "results": {
+    "full_stack_no_temporal": {
+      "label": "full_stack_no_temporal",
+      "dropped_cols_example": [
+        "temporal_foo"
+      ],
+      "n_easy": 72000,
+      "n_hard": 8000,
+      "argmax_macro_f1_all": 0.9316925335277526,
+      "argmax_qwk_all": 0.963990161491437,
+      "argmax_accuracy_all": 0.9275875,
+      "argmax_qwk_easy": 0.9644500016940434,
+      "argmax_qwk_hard": 0.9589191652583152,
+      "tuned_qwk_all": 0.9646865540957821,
+      "tuned_qwk_easy": 0.9652600613641605,
+      "tuned_qwk_hard": 0.9583598962782244,
+      "elapsed_sec": 3639.1
+    },
+    "full_stack_no_style": {
+      "label": "full_stack_no_style",
+      "dropped_cols_example": [
+        "style_foo"
+      ],
+      "n_easy": 72000,
+      "n_hard": 8000,
+      "argmax_macro_f1_all": 0.960192451347627,
+      "argmax_qwk_all": 0.9809634042239136,
+      "argmax_accuracy_all": 0.9643625,
+      "argmax_qwk_easy": 0.9820834484701694,
+      "argmax_qwk_hard": 0.9688419344702682,
+      "tuned_qwk_all": 0.9819333928684151,
+      "tuned_qwk_easy": 0.9829620892120834,
+      "tuned_qwk_hard": 0.9707204612856983,
+      "elapsed_sec": 2254.5
+    },
+    "full_stack_no_calibrator": {
+      "label": "full_stack_no_calibrator",
+      "dropped_cols_example": [
+        "tier_b_calibrated_severe_prob"
+      ],
+      "n_easy": 72000,
+      "n_hard": 8000,
+      "argmax_macro_f1_all": 0.9600491225203658,
+      "argmax_qwk_all": 0.9811203199102442,
+      "argmax_accuracy_all": 0.9645625,
+      "argmax_qwk_easy": 0.9822186603550994,
+      "argmax_qwk_hard": 0.9692240677662878,
+      "tuned_qwk_all": 0.9820058112747356,
+      "tuned_qwk_easy": 0.9829650543344847,
+      "tuned_qwk_hard": 0.9715593570679336,
+      "elapsed_sec": 2393.1
+    }
+  },
+  "notes": "Tier-B ablation: each variant drops one Tier-B feature family. Compare to full_stack in the main benchmark (all Tier-B features) and baseline (no Tier-B) \u2014 the family whose removal most collapses the lift is the one carrying it."
+}
