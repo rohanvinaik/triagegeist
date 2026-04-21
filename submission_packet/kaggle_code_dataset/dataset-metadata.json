@@ -1,0 +1,19 @@
+{
+  "title": "triagegeist-code",
+  "id": "rohanvinaik/triagegeist-code",
+  "subtitle": "TriageGeist pipeline modules + cached LLM decisions",
+  "description": "Companion code dataset for the TriageGeist competition notebook. Contains the full multi-scale pipeline (11-bank decomposition, coherence scoring, complaint lexicon, feature engineering, ensemble, QWK threshold optimizer, LLM residual, AnswerCertifier, TriagePacket schema) plus cached LLM decisions (29 final LLM-determined ESI assignments). Attached as `/kaggle/input/triagegeist-code/` by the public TriageGeist notebook.",
+  "licenses": [
+    {
+      "name": "CC0-1.0"
+    }
+  ],
+  "keywords": [
+    "health",
+    "medicine",
+    "triage",
+    "esi",
+    "clinical-ai",
+    "tabular"
+  ]
+}

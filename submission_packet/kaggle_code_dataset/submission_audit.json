@@ -1,0 +1,4721 @@
+{
+  "scales": {
+    "scale_0_rules": {
+      "count": 575,
+      "decisions": [
+        {
+          "patient_id": "TG-M01LOLRXB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KTLY9SHTH",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-X7W0TGUR3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-92RPEPGLH",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-7ZF2845X4",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-V91HP20RY",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-CRA4Q950J",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-IX3TBKZT9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-IPBKH0Q2Y",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FSV3UCTS2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5B3971RF7",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TLUL8DTZP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5BMS4BQFO",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-9FB4EWJUS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-736ORMD7F",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-7OJC5Y882",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BEXEAIWE9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-7DMVZEL4R",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-689SY2IJA",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-Q3KJZTANX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MFJ2V6GGX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GQUXH2WPO",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-772MBBEDL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5GVMXLC80",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JUAL9AN0U",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-G38WRA1LO",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-N1M3HJXKG",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5YIZ40TGS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-8ZS5JDA7N",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-YNQ0F8Y3C",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MV11UX6SL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-A4ADC4SFM",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-J8CUVPJP3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FYAHCTKLW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ISQ7S00CP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-SH1CE2FR2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-26PR4FGY0",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-OO4N323FX",
+          "esi": 1,
+          "confidence": 0.96,
+          "evidence": [
+            "HARD_RULE: critical:pulseless"
+          ]
+        },
+        {
+          "patient_id": "TG-RDXZOAY89",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-07NLEEVSE",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GI8HACFWN",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-PQYEW0SIQ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-AABGDYU5W",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ZHQ4VZ217",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-HOT6RV790",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-Y30X3A8J3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KRS064QFQ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-8ZVAF6YIB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6ZJOA7ZH3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KH0FKY3Q9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-E5RV4NR2E",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JGGMRU84T",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-Y2ASBKFHX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-78O0D2GY3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JUDT27UTO",
+          "esi": 1,
+          "confidence": 0.96,
+          "evidence": [
+            "HARD_RULE: critical:pulseless"
+          ]
+        },
+        {
+          "patient_id": "TG-6QBBF5KXO",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JBC3BZ463",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KQUHU0X7P",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-VDE2F2M1U",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6EQ9CPOS3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BAMM3HPXP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-PAG7SF5HM",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0EMOC5PM8",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-2ZSGKY54B",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-EGABFBMPR",
+          "esi": 1,
+          "confidence": 0.96,
+          "evidence": [
+            "HARD_RULE: critical:respiratory_arrest"
+          ]
+        },
+        {
+          "patient_id": "TG-PPT5TV2WI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-PPSG7Y1KA",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-UL3JF19VN",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-NMDGKWAS9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0WA0SP9D2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-H0RNILXHO",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6W85C8PNT",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-J777HIGR2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TRXAG5MUV",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-W9MFGUQ9U",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-POFHS0R33",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-68NM44Y6N",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-VO2A4J8LC",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ABNOPT30Y",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-H99YY7V20",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-4I9QBBUW6",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6PSPDGDHO",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KG5MY0QOH",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TOCL3QFN2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JPFB5DTMF",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ZCHLOD46Q",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0CMXZUECS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-UBGIQFOEL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GYDWB6NX8",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-59IRTZM1M",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-DD05P9ET5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-C0PFTOBWL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-SEH0QNI6J",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FBNW466QX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GYYC6M3YS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0UEP0UXBI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TWPHYMHG2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-50P78QZM7",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ADGPP4YC2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5EIQUITCW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-C20U377U4",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-AREYK22Q7",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FM4RR5KSE",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-CPDY2XVO5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-YKPNZABGX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-2BAK7QVX3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6KY9E91JE",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0C18IL9HC",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-RO85I8Z4J",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-UW2LCDQBI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-RUVJXX5O6",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5CGZJWT1Y",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-3CEGGO1IN",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WCRRUJZWZ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-62JW2AHBT",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-HU60RODLJ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-T8MPRLR1J",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FKGRHFHWV",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5Q1VYIKAV",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JA3RQY8KN",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-QETHAM032",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-HD4IGZ232",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BUSIYSUBW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-T8RMU9DSB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-HYTBTLEB4",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-7H75V4H9H",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-OV9M3JW7W",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JFRI76QY2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-9VS6BQ6I7",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-E9Q5ILS75",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-IVI08HDE5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-DJI7F6H4S",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-EZ5XOQIF3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TVJ18UX3M",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-HRJ3KVRS5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-31KRX5IO1",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ER8771UD6",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-QSPW1F9PY",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-RIMJXGHV7",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0RHKZEBNO",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-YWDB7QHI8",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GEZUAAUNX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-V3XCLIJT5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WMBECZUQE",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JXCQZ3ZQ1",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-8XJ2VK8GU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6KZ5CCT0S",
+          "esi": 1,
+          "confidence": 0.96,
+          "evidence": [
+            "HARD_RULE: critical:pulseless"
+          ]
+        },
+        {
+          "patient_id": "TG-PPUR6GRY4",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-1ZGA6FKAI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-112LT2HX3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-POMEAI7NV",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-IWSV3GZ9C",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-R1UXQPQXP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-CWMNEX7XH",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-CT0V65VKK",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BDDU0Q3U2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-PPRXER1UH",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5II64RP6E",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-50WSI8X94",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-IMO17SL8A",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MDXORAIZZ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-F64XOUGIG",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-LL9OMX7XX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-P7IBMOV1W",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BVHLARGZM",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-XCKTPC4O3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0ZAWNL3JI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-QS00PJJH2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-I1PMVBKKV",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-E6KK2SDML",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GPOPQB06U",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BAG27QMMB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-OSL3JYY4S",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-02W2VNOTA",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-2C69B8ONC",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MJ5BKLKYY",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-YCG75T605",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-B4TOHU9YG",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-J6N77VWRC",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-540IS36YL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-EF98MU1H9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-J0K7XODUZ",
+          "esi": 1,
+          "confidence": 0.96,
+          "evidence": [
+            "HARD_RULE: critical:respiratory_arrest"
+          ]
+        },
+        {
+          "patient_id": "TG-JYDTNL8LC",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BTUY0V938",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-9KH152X0U",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-3I1TASKVI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-DW5USINHL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-UNO6K3FCW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-QD8LHKH2O",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MFBY6MRBF",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-U3P852GGH",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-Q62VF6PU3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-NLGN1EF3E",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-O0PJCMB3T",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WJKMLTBB0",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-RTR0YLZAR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GV26DX3XD",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MQOHD2R20",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-J2WLL049R",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GAG0PCVXI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-N5O9VF47B",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GM950JTQR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-2V2WEWCZ9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-OBZ368IG0",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-YQYE2WII6",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BWTX1XD2Q",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5O48V8M1R",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-9JVGTVC6G",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-QAHAGDUBD",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-E6DJB8P6Q",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-51K6ZKRYK",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-Y7BYSSA9G",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-R8E306QDI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-YISNUD0IL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TLJEECZGM",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-APIJUEX7I",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-HAZSVGRAA",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ZM1PV1A73",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-NGWNRRZW5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-73ADCLGOI",
+          "esi": 1,
+          "confidence": 0.96,
+          "evidence": [
+            "HARD_RULE: critical:cardiac_arrest"
+          ]
+        },
+        {
+          "patient_id": "TG-PSKKGRN2K",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6KTUXDLCM",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-88KSSPEZM",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-LEYP8R0SR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-IQ9VOFI63",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5BBTQXJKN",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WEPUOBWOR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-OUA0T8KHB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WZ0X03JDR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-G3DOAED9S",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TA6NXHQXR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6ECVXU8B9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-RN2USA9KP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BOJORF1O8",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-VMXBAYASV",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-Y32QTGF5W",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6QRGY65C2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-4O0CMDYYL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-7HVCFBRWW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-N20SW3RV7",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-66XHNMTUI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-11CIOQTA7",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-3VY5QO2SR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-1V845C743",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-CTIUSFOZM",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MBJ6TME57",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KV4DKD2ZH",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-B4UXT4063",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KG9FL9VJY",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ZBANEVN1X",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-AQ40KNK6Q",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-VEPKNWYEK",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-EMJX1HPSW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-74GCOCO2J",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-11IRP9CYP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5AXA578L9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-M7OVCDGSN",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-RBEOJ27N8",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-T0XLEXEL9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ZUFO24FH8",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MEEYGV62E",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-NFE4D71SK",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-VEUEH4LXP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-8XC1D5JKE",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-N353KTB1P",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ELOHHQRZU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-UEEASACTR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-3LL13EQRL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-664BPLNTH",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-L0FKYV254",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JYX0DA30H",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FC1C7YPAD",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-CWO38X07U",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FBGX39XGK",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-J6KQV188V",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-3YGIFYH1R",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-4Y65GL48Q",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-XBU2PTSIE",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-UQ8LFS8MR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-70WTHT3IB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FU52Z8VXZ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-VDUD1X2LU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ESZQ8EW2Z",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-U83N5ZS16",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-PJGTQ98WP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-QEHGOI04P",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-DHF8AT3Y4",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-AO1CQ2KQ1",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-V30PT88M3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-9C8Q8Y4J2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ARK1W5KIF",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-E6S21KXCT",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-30ETFI19A",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GXFO8F53X",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-59SR6XGRQ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-AF5UYD3QZ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-NN61VAT5B",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-4CS6E35WG",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ZTHUYE0ER",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-1H4LF5VKU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-93IF98135",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-2L2478X29",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JZSCWQJJD",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-DL6IZTP4M",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-2PX9AJV72",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-LH07V3HPE",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-J6PW73SVS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-N1BV4SUMN",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-V7KEIIHOQ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-9ZRVVUTQ0",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-YIP9RIGEU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-IPJFHP4U5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-3DWCR7V4A",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JIFJUAO6Q",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-A0GT1CF6S",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-Z5SZDSDP4",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KICM2QTJ0",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-827JZXCEU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6XO64CC8B",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-EFV0056IB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-01ED03HI9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-LMXBFBQDK",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GOWPQ7VEL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-CEL34O692",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-LZL3VEYP9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ELPEFKQGZ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-M4P64A9PS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-XANARBGQF",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MLKXQT999",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-S2QXWY0T3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-IAL8W08W3",
+          "esi": 1,
+          "confidence": 0.96,
+          "evidence": [
+            "HARD_RULE: critical:pulseless"
+          ]
+        },
+        {
+          "patient_id": "TG-YK27QTB6A",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-3CQ4AGDM1",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-O4Z2U30YP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KYXA7SD5Q",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0EEFFPTU0",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-22KC5NOPY",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ST5G05A2G",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-LLYRQO60X",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-Q52G93SCG",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-F7396RHMT",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0LVM4UV8D",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-HG9T7SIBR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-G25GUIVEV",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-VR1DYWKJ1",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KCW5PYYQE",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-60QJUCU1Y",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-84C16ZFJN",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-162XC25EI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-RP3YQZCZI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WB6AAWIRW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WONLK9HYU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-XBS7H9THY",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-8I74T7PM4",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5ALRM38O6",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-1KL5YQ7LU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5TTEXNETG",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-8SI1JGY5P",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-LQO0D8CAL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KQ7T3D26A",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-I8VTRCAD7",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-OIJCF5L5E",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-XTIY5JXWO",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5VZLR7ZG0",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FFIIOA3C3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-YDX0L43SY",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-3DK0PZF3N",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6MEAZOJGX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-66KF3F5LW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-AI7M3583P",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-90P1FG230",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5LRZB3UQM",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-K4E0S9DQ7",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-PJHI565NQ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-1K9CZX2HI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-OQBR0A1JD",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FOJFGYACZ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-2IL6XMNNW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-QDT2WZS8G",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-IV6O60GZG",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ANR5TSN62",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-LBE01IG2K",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-X4NNFHQSS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-USEH1ZE5G",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TQN3GPRH9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FJFSLOSTU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-IR1L4CSQ6",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-9LUNNKQ02",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-DKP9F8RHS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-1O8CNVU5M",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-L6TY4AUTI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TFWGKX89K",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ZJC2KZQI8",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-C5CFUW7SV",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-3PHMU3DGM",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-YNS1GTBBR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-XBFK47XDW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-M3WHHLKBV",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-Q3AEVSSN5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-M05D7NZB9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GG6NEQQTX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-18M90DAIB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-7E6B0NO88",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-VT60V3JYH",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-AITK5KRQK",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-9Q3JSNUKZ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-SEKKPNS26",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-APCR2JLW4",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BNO1V6ZFZ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GZXBJF657",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-LQOS1OI7V",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-4SCPKRYL5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-DGBP2E7VD",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0DEA87M7C",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MQJ43BSKZ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TREAFE5MU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-4026X52ZV",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FIXJ101V7",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-GLMZC5IKN",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-D1HZ2YX21",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-PGKJT2Z1Z",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-AB5S5PIEU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-R4BIG86QP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-T7SK9V8YS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6A19VOK52",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-3IEZ0CBL1",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-SQVC9E991",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-16AY5YL5C",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0C9JW1B7O",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-XUYD3ZSUF",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-LCIFNB6HD",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WET52VJGQ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-7KT6WEY8L",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-UDDW0HZP3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WBQJIHVQE",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ATDCRHZEG",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KD3EA4VFM",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TLPIIKZQM",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0OPN2ICW3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-30SN2ZS0U",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-I4E4KW0Y2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-3UIT0QHGQ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-PB5WYPYIK",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-PXWBK10Y5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FHT1YJBLJ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FQET4LUPG",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-DAFMHJO6Q",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-AV0PHI9IC",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ODNE1FCLY",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-M1KHRAV7B",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TY8M88VIB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-Z7HWP2J4H",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BHP2LAJ6L",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-I6POUALD0",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BCMONY831",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-G0DKKRRNH",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-RXTHNRXWM",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-1BDBW21NK",
+          "esi": 1,
+          "confidence": 0.96,
+          "evidence": [
+            "HARD_RULE: critical:pulseless"
+          ]
+        },
+        {
+          "patient_id": "TG-FPSH9IHFY",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WF8WACRBU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FX2SCHMXW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MAC2MU6LW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-QROZOX6HR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-QG9M60KFI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-HL4KZM56E",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-V4GFL6BX3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-NSLMC3YHU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-46IE3OPQB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-D9OKPF97I",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-I4493W2R2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-P7KA6OEOU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MVA909MR8",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-5L3X3SDPS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-54O5PULSO",
+          "esi": 1,
+          "confidence": 0.96,
+          "evidence": [
+            "HARD_RULE: critical:cardiac_arrest"
+          ]
+        },
+        {
+          "patient_id": "TG-K4NZZLBQ8",
+          "esi": 1,
+          "confidence": 0.96,
+          "evidence": [
+            "HARD_RULE: critical:cardiac_arrest"
+          ]
+        },
+        {
+          "patient_id": "TG-D8297U69J",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-SFEENVI41",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-HOS9X6VW9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-FHE9R5J3J",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ABQHYU0GK",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-E1EJG0I7U",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ML2EZHX6E",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KDGWXPTAL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-X2HF0G253",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JTU2XHC0F",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-VUEFUP9J5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-EC4QKKT0Q",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-1FT1N2ZZN",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WJLJJ1GA5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-OUHYKKVIP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0ZSP740OB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-RZAGHFON9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-AR41IV5UX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-YS76DFWWF",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-D0QG1A8C5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-NWH6JYY0E",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-L430ASB95",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-87RXQ4C3I",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-QNZ122JWJ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-Q8IZB6GEQ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-XJ70Y96BA",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-L4SCCY34V",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-NL3OZCUTE",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-M4J7Z54DP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-K8W9GG9A1",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-K9NQ4PVX6",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-SAWHLBPB7",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-8YWQJF3IX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-7M2C3UVIW",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WC03OKDHE",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KNCKV8FRI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BL5ZWR08H",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-2FWMSQW43",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0A1UCBCYC",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KNVTCBME9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-VXGOARTH2",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-UCR46I6Y5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-I6R6KG8AK",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-S02WLNQIS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-54GFYPAJI",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-RUACS26KU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-Q2X0VKQIO",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ES5EET5GG",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TALY2OPKV",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-S8L62WH5X",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-ICCITFF3R",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0YJPCEEOY",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-KPZ6OLFQC",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-673KUTNCU",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-SLNBS2Z96",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-XEB7ZNL9J",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-O29UBHI9G",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-2PMHEV0RH",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-9JF772KHG",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-P03J81I1H",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-SQKPKRRJS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BSP43TQB5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-QMWCLL3EK",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-IISLAKJ03",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-M5V5GCYU6",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WZABHIZDR",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-I18IKEUWY",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-HM2J532BB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-2AVMQM3BP",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-O9BA96SP5",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-2PG2FQHTT",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-MW9EHYM1I",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-OZC4WK5M1",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-F30G6RXD4",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-1MT53Y8S3",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-CPNR4G2MY",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-DKP15DQN8",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=3 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-NX6FD4GAJ",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-R8JBRHQRS",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-957N395DN",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-OP8U4XMAX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-JJCA2SKBB",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-U2ZG7QZBF",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6IBPL1CVX",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-0JBFKBAOA",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-OFDM6STS1",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=4 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-BXNLEDT43",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-DYE6AZHL9",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6XH2YSB63",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-H15KNPN5H",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-G0GFV6CC4",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-TU10UMS26",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-U85J3E3OA",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-WM07AVDXA",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-6Q3BAQ09A",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-DXQAAG4HL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=7 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-SQUGSDRGT",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=8 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-84X6DFCS4",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-9AV8WIWA6",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=6 comatose"
+          ]
+        },
+        {
+          "patient_id": "TG-DEFNK9YXL",
+          "esi": 1,
+          "confidence": 0.99,
+          "evidence": [
+            "HARD_RULE: gcs=5 comatose"
+          ]
+        }
+      ]
+    },
+    "scale_2_qwk": {
+      "thresholds": [
+        1.56376089,
+        2.51698442,
+        3.55305499,
+        4.58287457
+      ],
+      "oof_qwk": 0.9702
+    },
+    "scale_3_claude": {
+      "changes": [
+        {
+          "patient_id": "TG-M435AN5QL",
+          "model_pred": 4,
+          "claude_pred": 5,
+          "gap": 0.027
+        },
+        {
+          "patient_id": "TG-2VZSB9GJU",
+          "model_pred": 4,
+          "claude_pred": 3,
+          "gap": 0.1955
+        },
+        {
+          "patient_id": "TG-BWJMW4D3O",
+          "model_pred": 4,
+          "claude_pred": 3,
+          "gap": 0.1315
+        },
+        {
+          "patient_id": "TG-2TX2IX7UV",
+          "model_pred": 4,
+          "claude_pred": 5,
+          "gap": 0.1215
+        },
+        {
+          "patient_id": "TG-CW64XLFSG",
+          "model_pred": 4,
+          "claude_pred": 5,
+          "gap": 0.021
+        },
+        {
+          "patient_id": "TG-AKK5M9VGZ",
+          "model_pred": 4,
+          "claude_pred": 3,
+          "gap": 0.1142
+        },
+        {
+          "patient_id": "TG-1JWCE3ALA",
+          "model_pred": 4,
+          "claude_pred": 5,
+          "gap": 0.0603
+        },
+        {
+          "patient_id": "TG-YNBD4C780",
+          "model_pred": 4,
+          "claude_pred": 3,
+          "gap": 0.1866
+        },
+        {
+          "patient_id": "TG-RCNWB2R31",
+          "model_pred": 5,
+          "claude_pred": 4,
+          "gap": 0.1899
+        },
+        {
+          "patient_id": "TG-2RZ0ND1BG",
+          "model_pred": 4,
+          "claude_pred": 3,
+          "gap": 0.1785
+        },
+        {
+          "patient_id": "TG-N1DXB8QHO",
+          "model_pred": 4,
+          "claude_pred": 5,
+          "gap": 0.1696
+        },
+        {
+          "patient_id": "TG-W402B11LC",
+          "model_pred": 4,
+          "claude_pred": 5,
+          "gap": 0.0391
+        },
+        {
+          "patient_id": "TG-T0T22BZ8S",
+          "model_pred": 5,
+          "claude_pred": 4,
+          "gap": 0.1868
+        },
+        {
+          "patient_id": "TG-95S2H8WUM",
+          "model_pred": 4,
+          "claude_pred": 5,
+          "gap": 0.179
+        }
+      ]
+    }
+  },
+  "stats": {
+    "method_breakdown": {
+      "ensemble+qwk": 19396,
+      "rules": 575,
+      "claude_residual": 29
+    },
+    "distribution": {
+      "1": 731,
+      "2": 3433,
+      "3": 7298,
+      "4": 5822,
+      "5": 2716
+    },
+    "n_features": 124
+  }
+}

@@ -1,6 +1,6 @@
 # Kaggle Deployment Guide
 
-End-to-end steps to submit this package to the Triagegeist competition. Allow ~30 minutes of human work plus ~90 minutes for the notebook to finish training on Kaggle CPU.
+End-to-end steps to submit this package to the Triagegeist competition. Allow ~30 minutes of human work. The notebook itself runs in under a minute on Kaggle CPU — training is done once locally and ships as pre-trained weights in the `triagegeist-code` companion Dataset.
 
 ## Step 1 — Push to GitHub (5 min)
 
@@ -46,8 +46,8 @@ Then on Kaggle.com:
 4. **Settings → Add Data → Datasets**: search `triagegeist-code` (the one you just uploaded), attach
 5. **Settings → Accelerator → CPU** (no GPU needed — pipeline is CPU-only)
 6. **Save Version → Save & Run All**
-7. Wait ~90 min for ensemble training to complete
-8. Verify the final cell printed `submission.csv written.` with the expected method breakdown
+7. Runs in under a minute (loads the 5 pre-trained model files from `triagegeist-code`, runs inference + QWK thresholds + cached LLM decisions, writes `submission.csv`)\n
+8. Verify the final cell printed `submission.csv written.` with the expected method breakdown (575 rules / 19396 ensemble / 29 LLM-certified)
 9. Once the run is green: **Share → Public**
 
 Copy the notebook URL — you'll need it in step 4.

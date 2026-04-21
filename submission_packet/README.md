@@ -21,7 +21,11 @@ submission_packet/
 │   └── triagegeist.ipynb          ← public Kaggle notebook, end-to-end runnable
 └── kaggle_code_dataset/           ← upload as a Kaggle Dataset named "triagegeist-code"
     ├── README.md
-    ├── src/                       ← all pipeline modules (4,084 LOC)
+    ├── src/                       ← pipeline modules (4,084 LOC)
+    ├── models/                    ← pre-trained weights (5 models), feature schema,
+    │                                cohort table, QWK thresholds, metadata
+    ├── submission.csv             ← reference output for verification
+    ├── submission_audit.json      ← per-prediction provenance
     └── decisions_batch_*.json     ← 7 cached LLM decisions files (29 final decisions)
 ```
 
