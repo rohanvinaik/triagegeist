@@ -1,0 +1,33 @@
+{
+  "created_at": "2026-04-21T02:21:09Z",
+  "n_train": 80000,
+  "n_test": 20000,
+  "n_features": 124,
+  "n_cat_cols": 14,
+  "n_hard_rules": 575,
+  "catboost_seeds": [
+    42,
+    123,
+    777
+  ],
+  "catboost_iters": 2000,
+  "lightgbm_seeds": [
+    42,
+    314
+  ],
+  "lightgbm_n_estimators": 1500,
+  "blend_weights": [
+    0.19999999999999998,
+    0.19999999999999998,
+    0.19999999999999998,
+    0.2,
+    0.2
+  ],
+  "qwk_thresholds": [
+    1.56376089,
+    2.51698442,
+    3.55305499,
+    4.58287457
+  ],
+  "training_time_min": 57.09
+}

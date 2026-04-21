@@ -28,6 +28,14 @@ analysis/oof_final.npy
 analysis/oof_method.npy
 analysis/oof_gap.npy
 
+# Trained model weight binaries — exceed GitHub's 100MB per-file limit.
+# Distributed via the `triagegeist-code` Kaggle Dataset. Regenerate locally
+# with `python3 submission/train_and_save.py`.
+submission/models/*.cbm
+submission/models/*.txt
+submission_packet/kaggle_code_dataset/models/*.cbm
+submission_packet/kaggle_code_dataset/models/*.txt
+
 # OS
 .DS_Store
 
