@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
 Integration step: read analysis/oof_summary.json, render Fig 2 + Fig 3,
-substitute the ⟪PLACEHOLDER⟫ markers in documents/PROJECT_WRITEUP.md with
+substitute the ⟪PLACEHOLDER⟫ markers in submission_packet/WRITEUP.md with
 the formal OOF numbers, and emit a final-deliverables manifest.
 
 Run AFTER analysis/oof_evidentiary.py has completed.
@@ -17,7 +17,7 @@ from pathlib import Path
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent
 ANALYSIS = PROJECT_ROOT / "analysis"
-DOCS = PROJECT_ROOT / "documents"
+SUBMISSION_PACKET = PROJECT_ROOT / "submission_packet"
 FIGURES = PROJECT_ROOT / "figures"
 
 
@@ -47,7 +47,7 @@ def main():
                    capture_output=True, text=True)
 
     # --- Substitute placeholders in writeup ---
-    writeup = DOCS / "PROJECT_WRITEUP.md"
+    writeup = SUBMISSION_PACKET / "WRITEUP.md"
     text = writeup.read_text()
     subs = {
         "⟪OOF_PCT_GE_2_PCT⟫": f"{fmt_pct(s['pct_ge_2'], 3)}",
@@ -74,10 +74,10 @@ def main():
     # --- Manifest ---
     print("\n=== DELIVERABLES MANIFEST ===")
     files = [
-        ("Writeup",                 DOCS / "PROJECT_WRITEUP.md"),
-        ("Notebook",                PROJECT_ROOT / "submission" / "triagegeist_notebook.ipynb"),
-        ("Submission CSV",          PROJECT_ROOT / "submission" / "submission.csv"),
-        ("Audit JSON",              PROJECT_ROOT / "submission" / "submission_audit.json"),
+        ("Writeup",                 SUBMISSION_PACKET / "WRITEUP.md"),
+        ("Notebook",                SUBMISSION_PACKET / "notebook" / "triagegeist.ipynb"),
+        ("Submission CSV",          SUBMISSION_PACKET / "submission.csv"),
+        ("Audit JSON",              SUBMISSION_PACKET / "submission_audit.json"),
         ("Cover image (560x280)",   FIGURES / "cover.png"),
         ("Fig 1 (hero)",            FIGURES / "fig1_auditability_triangle.png"),
         ("Fig 2 (disagreement)",    FIGURES / "fig2_disagreement_topology.png"),

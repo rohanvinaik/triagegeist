@@ -2,7 +2,7 @@
 """
 Train the full ensemble once, save every artifact needed for inference.
 
-Run this ONCE. All downstream consumers (the Kaggle notebook, generate_final,
+Run this ONCE. All downstream consumers (the Kaggle notebook and any
 deployment) load from `submission/models/` and do not retrain.
 
 Artifacts written to submission/models/:
